@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "如果国宝会说话",
+    "link": "https://www.bilibili.com/bangumi/play/ss21741",
+    "duration": "5分钟/集",
+    "ageGroup": "6-12岁",
+    "category": ["传统文化", "历史"],
+    "summary": "每集讲述一件文物，让国宝说话，带孩子穿越时空了解中华文明。",
+    "reason": "顶级审美与创意的结合，将枯燥的文物转化为生动的故事，培养孩子的民族自豪感与历史底蕴。豆瓣评分 9.4 分。",
+    "rating": 9.4,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 2,
+    "title": "中国唱诗班",
+    "link": "https://www.bilibili.com/bangumi/play/ss6499",
+    "duration": "5-10分钟/集",
+    "ageGroup": "5-12岁",
+    "category": ["传统文化", "艺术"],
+    "summary": "以古诗词为背景，纯正中国风水墨动画，讲述感人至深的传统文化故事。",
+    "reason": "每一帧都是精美画卷，艺术审美极高，让孩子在唯美的意境中自然领悟古诗词的意蕴。豆瓣评分 9.2 分。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 3,
+    "title": "微观小世界",
+    "link": "https://www.bilibili.com/video/BV1xd4y1R72w",
+    "duration": "5分钟/集",
+    "ageGroup": "3-10岁",
+    "category": ["自然科学", "昆虫学"],
+    "summary": "无对白3D动画，展现昆虫世界的幽默日常，充满奇思妙想。",
+    "reason": "法式幽默与自然科学的完美融合，无对白设计打破语言隔阂，激发孩子对大自然的无限好奇。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 4,
+    "title": "小小人类星球",
+    "link": "https://www.bilibili.com/video/BV15X4y1v7QZ",
+    "duration": "5分钟/集",
+    "ageGroup": "3-8岁",
+    "category": ["人文地理", "世界文化"],
+    "summary": "BBC出品，展现世界各地孩子的生活，从非洲丛林到北极冰原，看同龄人的不同成长。",
+    "reason": "极佳的人文启蒙片，带孩子足不出户看世界，培养多元文化包容心与同理心。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 5,
+    "title": "如果我是一只动物",
+    "link": "https://www.bilibili.com/video/BV1iV411H7id",
+    "duration": "5分钟/集",
+    "ageGroup": "3-8岁",
+    "category": ["自然科学", "动物学"],
+    "summary": "以两个孩子的视角观察野生动物的成长过程，画面治愈且充满童趣。",
+    "reason": "视角独特，配音亲切，科学严谨又不失温情，是低龄孩子认识自然界的最佳窗口。豆瓣评分 9.2 分。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 6,
+    "title": "小小世界",
+    "link": "https://www.bilibili.com/video/BV1jb4y1f7TG",
+    "duration": "30分钟(可分段看5-10分钟)",
+    "ageGroup": "5-12岁",
+    "category": ["自然科学", "微生物学"],
+    "summary": "聚焦自然界最微小的生物，用微距摄影展现震撼的生存智慧。",
+    "reason": "画面极其精美震撼，展现了微观世界的生命奇迹，培养孩子观察细微事物的耐心与敬畏心。豆瓣评分 9.6 分。",
+    "rating": 9.6,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 7,
+    "title": "水果传",
+    "link": "https://www.bilibili.com/bangumi/play/ss23118",
+    "duration": "35分钟(单段约10分钟)",
+    "ageGroup": "5-12岁",
+    "category": ["自然科学", "植物学"],
+    "summary": "色彩斑斓的水果百科，讲述水果的起源、旅行与诱人滋味，用微距摄影展现水果的生命故事。",
+    "reason": "视觉盛宴，饱和度适中且画面高级，让孩子了解食物背后的自然科学与人文历史。豆瓣评分 9.7 分。",
+    "rating": 9.7,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 8,
+    "title": "我们的动物邻居",
+    "link": "https://www.bilibili.com/video/BV1FZ4y1i749",
+    "duration": "25分钟(单段约10分钟)",
+    "ageGroup": "6-12岁",
+    "category": ["自然科学", "生态保护"],
+    "summary": "CCTV出品，聚焦城市中的野生动物，看它们如何在钢筋水泥中寻找生存空间。",
+    "reason": "引导孩子关注身边的自然，理解人与自然和谐共处的意义，极具现实教育价值。豆瓣评分 9.0 分。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 9,
+    "title": "四季中国",
+    "link": "https://www.bilibili.com/video/BV1nq4y1C7GA",
+    "duration": "24分钟(单段约10分钟)",
+    "ageGroup": "6-12岁",
+    "category": ["传统文化", "自然科学"],
+    "summary": "深度解读二十四节气，展现中国人的时令智慧与自然哲学，双语讲述。",
+    "reason": "画面大气磅礴，将气象科学与传统文化完美结合，帮助孩子建立对时间的感知与文化认同。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 10,
+    "title": "跟着书本去旅行",
+    "link": "https://www.bilibili.com/video/BV1shcxekEVn",
+    "duration": "18分钟/集",
+    "ageGroup": "7-12岁",
+    "category": ["人文地理", "历史"],
+    "summary": "央视出品，读万卷书行万里路，实地探访课本中的历史遗迹与文化名胜。",
+    "reason": "语文学习的最佳辅助，将书本知识具象化，让孩子在旅行视角中深度理解文学与历史。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  }
+]
