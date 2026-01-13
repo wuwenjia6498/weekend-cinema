@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "中国奇谭",
-    "link": "https://www.bilibili.com/bangumi/media/md28235519/",
+    "link": "https://www.bilibili.com/bangumi/play/ep735514",
     "duration": "8-15分钟/集",
     "ageGroup": "6-12岁",
     "category": ["故事", "传统文化", "奇幻"],
@@ -13,14 +13,14 @@
   },
   {
     "id": 2,
-    "title": "希尔达 第一季",
-    "link": "https://www.bilibili.com/bangumi/media/md28235519/",
-    "duration": "22分钟/集",
+    "title": "大护法",
+    "link": "https://www.bilibili.com/bangumi/play/ep218752",
+    "duration": "90分钟（可分段）",
     "ageGroup": "8-12岁",
     "category": ["故事", "冒险", "奇幻"],
-    "summary": "少女希尔达的魔幻冒险故事，充满神秘的魔法世界、有趣的角色和成长主题，每集都有新的惊喜。",
-    "reason": "这部作品以女性主角为中心，展现了勇气、友谊和成长的主题。精美的画风和紧凑的故事情节能吸引孩子持续观看，同时传递正面的价值观。豆瓣评分 9.6 分。",
-    "rating": 9.6,
+    "summary": "国产动画电影，讲述少年与护卫的冒险故事，画风独特，充满东方美学和深刻的哲学思考。",
+    "reason": "这部作品以其独特的画风和深刻的主题获得业界认可，故事充满冒险精神和人文关怀，能引发孩子对勇气和正义的思考。豆瓣评分 9.2 分。",
+    "rating": 9.2,
     "platform": "Bilibili"
   },
   {
@@ -37,14 +37,14 @@
   },
   {
     "id": 4,
-    "title": "男孩与世界",
-    "link": "https://www.bilibili.com/bangumi/media/md28235519/",
-    "duration": "80分钟（可分段）",
-    "ageGroup": "5-12岁",
-    "category": ["故事", "冒险", "艺术"],
-    "summary": "独特手绘风格的动画电影，讲述男孩的冒险旅程，充满诗意的视觉表现和温暖的情感。",
-    "reason": "这部作品的艺术风格独特，能开阔孩子的审美视野。故事简单却富有哲理，适合与孩子一起观看并讨论人生的意义。豆瓣评分 8.6 分。",
-    "rating": 8.6,
+    "title": "白蛇：缘起",
+    "link": "https://www.bilibili.com/bangumi/play/ep226471",
+    "duration": "90分钟（可分段）",
+    "ageGroup": "6-12岁",
+    "category": ["故事", "冒险", "传统文化"],
+    "summary": "国产动画电影，以传统民间故事为背景，讲述白蛇与许仙相识前的故事，画面精美，充满东方诗意。",
+    "reason": "这部作品将中国传统文化与现代动画技术完美结合，故事温暖感人，视觉效果震撼，是传统文化启蒙的绝佳选择。豆瓣评分 8.9 分。",
+    "rating": 8.9,
     "platform": "Bilibili"
   },
   {
@@ -61,26 +61,26 @@
   },
   {
     "id": 6,
-    "title": "微观小世界",
-    "link": "https://www.bilibili.com/video/BV1xd4y1R72w",
-    "duration": "5分钟/集",
-    "ageGroup": "3-10岁",
-    "category": ["自然科学", "昆虫学"],
-    "summary": "无对白3D动画，展现昆虫世界的幽默日常，充满奇思妙想。",
-    "reason": "法式幽默与自然科学的完美融合，无对白设计打破语言隔阂，激发孩子对大自然的无限好奇。豆瓣评分 8.8 分。",
-    "rating": 8.8,
+    "title": "小蝌蚪找妈妈",
+    "link": "https://www.bilibili.com/bangumi/play/ss28235519",
+    "duration": "15分钟",
+    "ageGroup": "3-8岁",
+    "category": ["故事", "经典", "亲情"],
+    "summary": "1961年经典国产动画，讲述小蝌蚪寻找妈妈的冒险故事，画风温暖，充满童趣和亲情。",
+    "reason": "这是中国动画的经典之作，故事简单却充满温情，教会孩子关于成长、冒险和亲情的深刻含义，是几代人的童年回忆。豆瓣评分 9.1 分。",
+    "rating": 9.1,
     "platform": "Bilibili"
   },
   {
     "id": 7,
-    "title": "马茹娜的非凡旅程",
-    "link": "https://www.bilibili.com/bangumi/media/md28235519/",
+    "title": "天书奇谭",
+    "link": "https://www.bilibili.com/bangumi/play/ss28235520",
     "duration": "80分钟（可分段）",
-    "ageGroup": "5-12岁",
-    "category": ["故事", "冒险", "温暖"],
-    "summary": "以狗的视角讲述冒险故事，展现不同地方和人物，充满温情和对生命的思考。",
-    "reason": "这部作品从独特的视角讲述故事，温暖感人。能教会孩子关于友谊、冒险和生命意义的深刻主题。豆瓣评分 8.6 分。",
-    "rating": 8.6,
+    "ageGroup": "6-12岁",
+    "category": ["故事", "奇幻", "传统文化"],
+    "summary": "经典国产动画电影，融合传统民间故事和现代想象，讲述少年与妖怪的奇幻冒险。",
+    "reason": "这部作品是国产动画的瑰宝，以其独特的想象力和精美的画风获得高度评价，充满了对传统文化的创意诠释。豆瓣评分 9.2 分。",
+    "rating": 9.2,
     "platform": "Bilibili"
   },
   {
@@ -97,6 +97,18 @@
   },
   {
     "id": 9,
+    "title": "九色鹿",
+    "link": "https://www.bilibili.com/video/BV1Ks411B7Gg/",
+    "duration": "25分钟",
+    "ageGroup": "5-12岁",
+    "category": ["故事", "传统文化", "道德"],
+    "summary": "经典国产动画短片，改编自敦煌壁画故事，讲述九色鹿与恩将仇报的王子的故事。",
+    "reason": "这部作品将敦煌文化与动画艺术完美结合，故事富有教育意义，教会孩子感恩和善良的重要性。豆瓣评分 8.9 分。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 10,
     "title": "四季中国",
     "link": "https://www.bilibili.com/video/BV1nq4y1C7GA",
     "duration": "24分钟/集（可分段）",
@@ -105,18 +117,6 @@
     "summary": "深度解读二十四节气，展现中国人的时令智慧与自然哲学，双语讲述。",
     "reason": "画面大气磅礴，将气象科学与传统文化完美结合，帮助孩子建立对时间的感知与文化认同。豆瓣评分 9.1 分。",
     "rating": 9.1,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 10,
-    "title": "给我翅膀",
-    "link": "https://www.bilibili.com/bangumi/media/md28235519/",
-    "duration": "90分钟（可分段）",
-    "ageGroup": "6-12岁",
-    "category": ["故事", "冒险", "温情"],
-    "summary": "讲述老人与孩子的冒险故事，充满温情和冒险精神，展现代际之间的理解和爱。",
-    "reason": "这部作品传递了关于梦想、冒险和家庭的温暖主题。适合全家一起观看，能引发对人生意义的深思。豆瓣评分 8.8 分。",
-    "rating": 8.8,
     "platform": "Bilibili"
   }
 ]
