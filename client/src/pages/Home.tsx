@@ -89,7 +89,7 @@ export default function Home() {
     const [copiedId, setCopiedId] = useState<number | null>(null);
 
     const handleCopy = (video: Video) => {
-      const text = `🎬 推荐观看：《${video.title}》\n\n📝 内容介绍：\n${video.summary}\n\n🌟 推荐理由：\n${video.reason}\n\n📺 观看链接：${video.link}\n\n👉 来自「周末放映室」的精选推荐`;
+      const text = `🎬 推荐观看：《${video.title}》\n\n📝 视频介绍：\n${video.summary}\n\n🌟 推荐理由：\n${video.reason}\n\n📺 观看链接：${video.link}\n\n👉 来自「周末放映室」的精选推荐`;
       
       navigator.clipboard.writeText(text).then(() => {
         setCopiedId(video.id);
@@ -126,7 +126,7 @@ export default function Home() {
             </CardHeader>
             <CardContent className="flex-grow space-y-4 pt-4">
               <div>
-                <h4 className="text-sm font-semibold text-muted-foreground mb-1">内容介绍</h4>
+                <h4 className="text-sm font-semibold text-muted-foreground mb-1">视频介绍</h4>
                 <p className="text-foreground/90 text-sm leading-relaxed line-clamp-2" title={video.summary}>
                   {video.summary}
                 </p>
