@@ -23,7 +23,6 @@ export default function Home() {
   const [filteredVideos, setFilteredVideos] = useState<Video[]>([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [activeTab, setActiveTab] = useState("all");
-  const [expandedVideoId, setExpandedVideoId] = useState<number | null>(null);
 
   useEffect(() => {
     fetch("/videos.json")
@@ -52,10 +51,6 @@ export default function Home() {
 
     setFilteredVideos(result);
   }, [searchTerm, activeTab, videos]);
-
-  const toggleExpand = (id: number) => {
-    setExpandedVideoId(expandedVideoId === id ? null : id);
-  };
 
   const categories = [
     { id: "all", label: "全部" },
@@ -147,19 +142,22 @@ export default function Home() {
                 </div>
               </CardHeader>
               
-              <CardContent className="pt-4 flex-grow">
-                <p className="text-gray-600 leading-relaxed line-clamp-3 mb-4">
-                  {video.description}
-                </p>
+              <CardContent className="pt-4 flex-grow space-y-4">
+                <div>
+                  <h4 className="text-sm font-semibold text-[#6B5B95] mb-1">核心内容</h4>
+                  <p className="text-gray-600 leading-relaxed text-sm">
+                    {video.description}
+                  </p>
+                </div>
                 
-                <div className={`bg-[#FDF6E3] p-3 rounded-lg border border-[#F0E6D2] transition-all duration-300 ${expandedVideoId === video.id ? 'opacity-100 max-h-96' : 'opacity-0 max-h-0 overflow-hidden p-0 border-0'}`}>
+                <div className="bg-[#FDF6E3] p-3 rounded-lg border border-[#F0E6D2]">
+                  <h4 className="text-sm font-semibold text-[#8A6D3B] mb-1">家长推荐理由</h4>
                   <p className="text-sm text-[#8A6D3B] italic">
-                    <span className="font-semibold not-italic block mb-1">家长推荐理由：</span>
                     {video.recommendation}
                   </p>
                 </div>
 
-                <div className="flex flex-wrap gap-2 mt-4">
+                <div className="flex flex-wrap gap-2 pt-2">
                   <Badge variant="outline" className="text-[#6B5B95] border-[#6B5B95]/30 bg-[#6B5B95]/5">
                     {video.category}
                   </Badge>
@@ -169,16 +167,9 @@ export default function Home() {
                 </div>
               </CardContent>
 
-              <CardFooter className="pt-2 pb-6 flex gap-3">
+              <CardFooter className="pt-2 pb-6">
                 <Button 
-                  variant="ghost" 
-                  className="flex-1 text-[#6B5B95] hover:text-[#5A4A82] hover:bg-[#6B5B95]/10"
-                  onClick={() => toggleExpand(video.id)}
-                >
-                  {expandedVideoId === video.id ? '收起详情' : '查看详情'}
-                </Button>
-                <Button 
-                  className="flex-1 bg-[#6B5B95] hover:bg-[#5A4A82] text-white shadow-md hover:shadow-lg transition-all"
+                  className="w-full bg-[#6B5B95] hover:bg-[#5A4A82] text-white shadow-md hover:shadow-lg transition-all"
                   onClick={() => window.open(video.link, '_blank')}
                 >
                   <PlayCircle className="w-4 h-4 mr-2" />
