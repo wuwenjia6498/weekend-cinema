@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Search, Play, Clock, Users, Star, BookOpen, Leaf, Palette, Brush, Scissors, Drama } from "lucide-react";
+import { Search, Play, Clock, Users, Star, Globe, MapPin, Film, Award, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -49,21 +49,25 @@ export default function Home() {
     // Filter by tab category
     if (activeTab !== "all") {
       const categoryMap: Record<string, string> = {
-        "story": "暖心故事",
-        "nature": "科普自然",
-        "culture": "传统文化"
+        "domestic": "国内动画",
+        "foreign": "国外动画"
       };
       const targetCategory = categoryMap[activeTab];
       if (targetCategory) {
         result = result.filter(v => v.category.includes(targetCategory));
       }
 
-      // Filter by sub-category for culture tab
-      if (activeTab === "culture" && subTab !== "all") {
+      // Filter by sub-category
+      if (subTab !== "all") {
         const subCategoryMap: Record<string, string> = {
-          "ink": "上美水墨",
-          "paper": "上美剪纸",
-          "puppet": "上美木偶动画"
+          // Domestic sub-categories
+          "classic": "经典中国学派",
+          "modern": "现代创新系列",
+          "indie": "独立艺术短片",
+          // Foreign sub-categories
+          "studio": "商业工作室经典",
+          "oscar": "奥斯卡/国际获奖",
+          "master": "大师艺术短片"
         };
         const targetSubCategory = subCategoryMap[subTab];
         if (targetSubCategory) {
@@ -77,9 +81,7 @@ export default function Home() {
 
   // Reset subTab when activeTab changes
   useEffect(() => {
-    if (activeTab !== "culture") {
-      setSubTab("all");
-    }
+    setSubTab("all");
   }, [activeTab]);
 
   const VideoGrid = ({ items }: { items: Video[] }) => (
@@ -155,7 +157,7 @@ export default function Home() {
             </div>
             <div>
               <h1 className="text-2xl font-display font-bold text-primary tracking-tight">周末放映室</h1>
-              <p className="text-xs text-muted-foreground font-medium">精选优质儿童短视频</p>
+              <p className="text-xs text-muted-foreground font-medium">精选优质儿童动画短片</p>
             </div>
           </div>
         </div>
@@ -165,12 +167,12 @@ export default function Home() {
         <div className="container">
           <div className="max-w-2xl">
             <h2 className="text-4xl font-display font-bold text-primary mb-4 tracking-tight">
-              发现精彩的学习世界
+              发现精彩的动画世界
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              为 3-12 岁儿童精心策划的高质量短视频，
+              为 3-12 岁儿童精心挑选的 60 部优质动画短片，
               <br className="hidden sm:block" />
-              让孩子在快乐观看中收获知识与成长。
+              涵盖中国经典与世界名作，让孩子在快乐中收获成长。
             </p>
           </div>
         </div>
@@ -191,23 +193,20 @@ export default function Home() {
             </div>
             
             <Tabs defaultValue="all" className="w-full md:w-auto" onValueChange={setActiveTab}>
-              <TabsList className="grid w-full grid-cols-4 h-10 p-1 bg-muted/50 rounded-lg">
+              <TabsList className="grid w-full grid-cols-3 h-10 p-1 bg-muted/50 rounded-lg">
                 <TabsTrigger value="all" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm text-sm">全部</TabsTrigger>
-                <TabsTrigger value="story" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
-                  <BookOpen className="w-3.5 h-3.5" /> 暖心故事
+                <TabsTrigger value="domestic" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
+                  <MapPin className="w-3.5 h-3.5" /> 国内动画
                 </TabsTrigger>
-                <TabsTrigger value="nature" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
-                  <Leaf className="w-3.5 h-3.5" /> 科普自然
-                </TabsTrigger>
-                <TabsTrigger value="culture" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
-                  <Palette className="w-3.5 h-3.5" /> 传统文化
+                <TabsTrigger value="foreign" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
+                  <Globe className="w-3.5 h-3.5" /> 国外动画
                 </TabsTrigger>
               </TabsList>
             </Tabs>
           </div>
 
-          {/* Sub-tabs for Culture category */}
-          {activeTab === "culture" && (
+          {/* Sub-tabs for Domestic category */}
+          {activeTab === "domestic" && (
             <div className="flex justify-center md:justify-end animate-in fade-in slide-in-from-top-1 duration-200">
               <div className="inline-flex bg-white p-1 rounded-lg border border-border/50 shadow-sm">
                 <Button
@@ -219,28 +218,68 @@ export default function Home() {
                   全部
                 </Button>
                 <Button
-                  variant={subTab === "ink" ? "secondary" : "ghost"}
+                  variant={subTab === "classic" ? "secondary" : "ghost"}
                   size="sm"
-                  onClick={() => setSubTab("ink")}
+                  onClick={() => setSubTab("classic")}
                   className="h-8 text-xs px-3 gap-1.5"
                 >
-                  <Brush className="w-3 h-3" /> 上美水墨
+                  <Film className="w-3 h-3" /> 经典中国学派
                 </Button>
                 <Button
-                  variant={subTab === "paper" ? "secondary" : "ghost"}
+                  variant={subTab === "modern" ? "secondary" : "ghost"}
                   size="sm"
-                  onClick={() => setSubTab("paper")}
+                  onClick={() => setSubTab("modern")}
                   className="h-8 text-xs px-3 gap-1.5"
                 >
-                  <Scissors className="w-3 h-3" /> 上美剪纸
+                  <Sparkles className="w-3 h-3" /> 现代创新系列
                 </Button>
                 <Button
-                  variant={subTab === "puppet" ? "secondary" : "ghost"}
+                  variant={subTab === "indie" ? "secondary" : "ghost"}
                   size="sm"
-                  onClick={() => setSubTab("puppet")}
+                  onClick={() => setSubTab("indie")}
                   className="h-8 text-xs px-3 gap-1.5"
                 >
-                  <Drama className="w-3 h-3" /> 上美木偶
+                  <Award className="w-3 h-3" /> 独立艺术短片
+                </Button>
+              </div>
+            </div>
+          )}
+
+          {/* Sub-tabs for Foreign category */}
+          {activeTab === "foreign" && (
+            <div className="flex justify-center md:justify-end animate-in fade-in slide-in-from-top-1 duration-200">
+              <div className="inline-flex bg-white p-1 rounded-lg border border-border/50 shadow-sm">
+                <Button
+                  variant={subTab === "all" ? "secondary" : "ghost"}
+                  size="sm"
+                  onClick={() => setSubTab("all")}
+                  className="h-8 text-xs px-3"
+                >
+                  全部
+                </Button>
+                <Button
+                  variant={subTab === "studio" ? "secondary" : "ghost"}
+                  size="sm"
+                  onClick={() => setSubTab("studio")}
+                  className="h-8 text-xs px-3 gap-1.5"
+                >
+                  <Film className="w-3 h-3" /> 商业工作室经典
+                </Button>
+                <Button
+                  variant={subTab === "oscar" ? "secondary" : "ghost"}
+                  size="sm"
+                  onClick={() => setSubTab("oscar")}
+                  className="h-8 text-xs px-3 gap-1.5"
+                >
+                  <Award className="w-3 h-3" /> 奥斯卡/国际获奖
+                </Button>
+                <Button
+                  variant={subTab === "master" ? "secondary" : "ghost"}
+                  size="sm"
+                  onClick={() => setSubTab("master")}
+                  className="h-8 text-xs px-3 gap-1.5"
+                >
+                  <Sparkles className="w-3 h-3" /> 大师艺术短片
                 </Button>
               </div>
             </div>
