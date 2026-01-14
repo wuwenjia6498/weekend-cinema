@@ -195,11 +195,11 @@ export default function Home() {
             <Tabs defaultValue="all" className="w-full md:w-auto" onValueChange={setActiveTab}>
               <TabsList className="grid w-full grid-cols-3 h-10 p-1 bg-muted/50 rounded-lg">
                 <TabsTrigger value="all" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm text-sm">全部</TabsTrigger>
-                <TabsTrigger value="domestic" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
-                  <MapPin className="w-3.5 h-3.5" /> 国内动画
-                </TabsTrigger>
                 <TabsTrigger value="foreign" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
                   <Globe className="w-3.5 h-3.5" /> 国外动画
+                </TabsTrigger>
+                <TabsTrigger value="domestic" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
+                  <MapPin className="w-3.5 h-3.5" /> 国内动画
                 </TabsTrigger>
               </TabsList>
             </Tabs>
@@ -258,20 +258,20 @@ export default function Home() {
                   全部
                 </Button>
                 <Button
-                  variant={subTab === "studio" ? "secondary" : "ghost"}
-                  size="sm"
-                  onClick={() => setSubTab("studio")}
-                  className="h-8 text-xs px-3 gap-1.5"
-                >
-                  <Film className="w-3 h-3" /> 商业工作室经典
-                </Button>
-                <Button
                   variant={subTab === "oscar" ? "secondary" : "ghost"}
                   size="sm"
                   onClick={() => setSubTab("oscar")}
                   className="h-8 text-xs px-3 gap-1.5"
                 >
                   <Award className="w-3 h-3" /> 奥斯卡/国际获奖
+                </Button>
+                <Button
+                  variant={subTab === "studio" ? "secondary" : "ghost"}
+                  size="sm"
+                  onClick={() => setSubTab("studio")}
+                  className="h-8 text-xs px-3 gap-1.5"
+                >
+                  <Film className="w-3 h-3" /> 商业工作室经典
                 </Button>
                 <Button
                   variant={subTab === "master" ? "secondary" : "ghost"}
