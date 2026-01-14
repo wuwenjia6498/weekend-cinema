@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Search, Play, Clock, Users, Star, Globe, MapPin, Film, Award, Sparkles } from "lucide-react";
+import { Search, Play, Clock, Users, Star, Globe, MapPin, Film, Award, Sparkles, Copy, Check } from "lucide-react";
+import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -84,68 +85,101 @@ export default function Home() {
     setSubTab("all");
   }, [activeTab]);
 
-  const VideoGrid = ({ items }: { items: Video[] }) => (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {items.map((video) => (
-        <Card key={video.id} className="group hover:shadow-xl transition-all duration-300 border-border/50 bg-card/50 backdrop-blur-sm overflow-hidden flex flex-col h-full">
-          <CardHeader className="pb-3 relative bg-gradient-to-b from-primary/5 to-transparent">
-            <div className="flex justify-between items-start mb-2">
-              <CardTitle className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors line-clamp-1" title={video.title}>
-                {video.title}
-              </CardTitle>
-              <Badge variant="secondary" className="flex items-center gap-1 bg-orange-100 text-orange-700 hover:bg-orange-200 shrink-0">
-                <Star className="w-3 h-3 fill-current" />
-                {video.rating}
-              </Badge>
-            </div>
-            <div className="flex gap-2 text-sm text-muted-foreground">
-              <Badge variant="outline" className="bg-white/50 text-primary border-primary/20">
-                {video.ageGroup}
-              </Badge>
-              <Badge variant="outline" className="bg-white/50 text-secondary-foreground border-secondary">
-                <Clock className="w-3 h-3 mr-1" />
-                {video.duration}
-              </Badge>
-            </div>
-          </CardHeader>
-          <CardContent className="flex-grow space-y-4 pt-4">
-            <div>
-              <h4 className="text-sm font-semibold text-muted-foreground mb-1">内容介绍</h4>
-              <p className="text-foreground/90 text-sm leading-relaxed line-clamp-2" title={video.summary}>
-                {video.summary}
-              </p>
-            </div>
-            
-            <div className="bg-orange-50/50 p-3 rounded-lg border border-orange-100/50">
-              <h4 className="text-sm font-semibold text-orange-700 mb-1 flex items-center gap-1">
-                <Users className="w-3 h-3" />
-                推荐理由
-              </h4>
-              <p className="text-sm text-foreground/80 whitespace-pre-line leading-relaxed">
-                {video.reason}
-              </p>
-            </div>
+  const VideoGrid = ({ items }: { items: Video[] }) => {
+    const [copiedId, setCopiedId] = useState<number | null>(null);
 
-            <div className="flex flex-wrap gap-2 pt-2">
-              {video.category.map((cat, idx) => (
-                <span key={idx} className="text-xs px-2 py-1 rounded-full bg-muted/80 text-muted-foreground border border-border/50">
-                  {cat}
-                </span>
-              ))}
-            </div>
-          </CardContent>
-          <CardFooter className="pt-4 border-t border-border/50 bg-muted/30">
-            <Button className="w-full gap-2 shadow-sm hover:shadow-md transition-all" asChild>
-              <a href={video.link} target="_blank" rel="noopener noreferrer">
-                <Play className="w-4 h-4 fill-current" />
-                立即观看
-              </a>
-            </Button>
-          </CardFooter>
-        </Card>
-      ))}
-    </div>
-  );
+    const handleCopy = (video: Video) => {
+      const text = `🎬 推荐观看：《${video.title}》\n\n📝 内容介绍：\n${video.summary}\n\n🌟 推荐理由：\n${video.reason}\n\n📺 观看链接：${video.link}\n\n👉 来自「周末放映室」的精选推荐`;
+      
+      navigator.clipboard.writeText(text).then(() => {
+        setCopiedId(video.id);
+        toast.success("推荐语已复制到剪贴板");
+        setTimeout(() => setCopiedId(null), 2000);
+      }).catch(() => {
+        toast.error("复制失败，请重试");
+      });
+    };
+
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {items.map((video) => (
+          <Card key={video.id} className="group hover:shadow-xl transition-all duration-300 border-border/50 bg-card/50 backdrop-blur-sm overflow-hidden flex flex-col h-full">
+            <CardHeader className="pb-3 relative bg-gradient-to-b from-primary/5 to-transparent">
+              <div className="flex justify-between items-start mb-2">
+                <CardTitle className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors line-clamp-1" title={video.title}>
+                  {video.title}
+                </CardTitle>
+                <Badge variant="secondary" className="flex items-center gap-1 bg-orange-100 text-orange-700 hover:bg-orange-200 shrink-0">
+                  <Star className="w-3 h-3 fill-current" />
+                  {video.rating}
+                </Badge>
+              </div>
+              <div className="flex gap-2 text-sm text-muted-foreground">
+                <Badge variant="outline" className="bg-white/50 text-primary border-primary/20">
+                  {video.ageGroup}
+                </Badge>
+                <Badge variant="outline" className="bg-white/50 text-secondary-foreground border-secondary">
+                  <Clock className="w-3 h-3 mr-1" />
+                  {video.duration}
+                </Badge>
+              </div>
+            </CardHeader>
+            <CardContent className="flex-grow space-y-4 pt-4">
+              <div>
+                <h4 className="text-sm font-semibold text-muted-foreground mb-1">内容介绍</h4>
+                <p className="text-foreground/90 text-sm leading-relaxed line-clamp-2" title={video.summary}>
+                  {video.summary}
+                </p>
+              </div>
+              
+              <div className="bg-orange-50/50 p-3 rounded-lg border border-orange-100/50">
+                <h4 className="text-sm font-semibold text-orange-700 mb-1 flex items-center gap-1">
+                  <Users className="w-3 h-3" />
+                  推荐理由
+                </h4>
+                <p className="text-sm text-foreground/80 whitespace-pre-line leading-relaxed">
+                  {video.reason}
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-2 pt-2">
+                {video.category.map((cat, idx) => (
+                  <span key={idx} className="text-xs px-2 py-1 rounded-full bg-muted/80 text-muted-foreground border border-border/50">
+                    {cat}
+                  </span>
+                ))}
+              </div>
+            </CardContent>
+            <CardFooter className="pt-4 border-t border-border/50 bg-muted/30 grid grid-cols-2 gap-3">
+              <Button 
+                variant="outline" 
+                className="w-full gap-2 bg-white hover:bg-gray-50"
+                onClick={() => handleCopy(video)}
+              >
+                {copiedId === video.id ? (
+                  <>
+                    <Check className="w-4 h-4 text-green-600" />
+                    <span className="text-green-600">已复制</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="w-4 h-4" />
+                    复制推荐
+                  </>
+                )}
+              </Button>
+              <Button className="w-full gap-2 shadow-sm hover:shadow-md transition-all" asChild>
+                <a href={video.link} target="_blank" rel="noopener noreferrer">
+                  <Play className="w-4 h-4 fill-current" />
+                  立即观看
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
+    );
+  };
 
   return (
     <div className="min-h-screen bg-[#FDFBF7]">
