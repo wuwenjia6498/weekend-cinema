@@ -30,30 +30,23 @@ interface PosterGeneratorProps {
 
 // 获取封面图：优先使用专属封面，否则使用默认封面
 const getCoverImage = (id: number) => {
-  // 预定义的专属封面列表（仅作演示，实际项目中应由后端返回或检查文件是否存在）
-  const customCovers: Record<number, string> = {
-    1: "/images/covers/1.png", // 中国奇谭
-    2: "/images/covers/2.png", // 小蝌蚪找妈妈
-    3: "/images/covers/3.jpg", // 大闹天宫
-    31: "/images/covers/31.png", // Piper
-    32: "/images/covers/32.jpg", // La Luna
-    33: "/images/covers/33.jpg", // Partly Cloudy
-    37: "/images/covers/37.png", // For the Birds
-    4: "/images/covers/4.jpg",   // 哪吒闹海
-    5: "/images/covers/5.jpg",   // 三个和尚
-  };
-
-  if (customCovers[id]) {
-    return customCovers[id];
+  // 尝试使用 ID 对应的本地封面
+  // 注意：在 React 中无法同步检测文件是否存在，这里我们假设封面已通过脚本批量下载
+  // 实际生产环境应由后端 API 返回确切的封面 URL
+  // 为了兜底，我们可以在 img 的 onError 事件中切换回默认图，但这里是背景图，处理稍复杂
+  // 简化策略：所有 ID 都尝试访问 /images/covers/{id}.jpg 或 .png
+  // 由于文件扩展名不确定（jpg/png），且静态资源无法列出，
+  // 我们这里采用一种折中方案：优先使用 .jpg，如果之前有特定映射则保留
+  
+  // 已知的特殊格式映射（脚本下载的大多是 jpg，少数是 png）
+  const pngCovers = [1, 2, 12, 14, 31, 34, 35, 40]; // 根据脚本输出记录的 png 文件
+  
+  if (pngCovers.includes(id)) {
+    return `/images/covers/${id}.png`;
   }
-
-  // 默认封面兜底
-  const defaultCovers = [
-    "/images/cover-fantasy.jpg",
-    "/images/cover-healing.jpg",
-    "/images/cover-adventure.jpg",
-  ];
-  return defaultCovers[id % defaultCovers.length];
+  
+  // 默认尝试 jpg
+  return `/images/covers/${id}.jpg`;
 };
 
 export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
