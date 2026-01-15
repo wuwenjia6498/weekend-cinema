@@ -145,7 +145,7 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
                     {video.category.slice(0, 2).map((tag) => (
                       <span 
                         key={tag} 
-                        className="px-2.5 py-0.5 text-sm font-medium rounded-full backdrop-blur-md"
+                        className="px-3 py-1 text-sm font-medium rounded-full backdrop-blur-md flex items-center justify-center leading-none"
                         style={{ 
                           backgroundColor: "rgba(255,255,255,0.2)", 
                           borderColor: "rgba(255,255,255,0.1)",
@@ -169,14 +169,14 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
                 <div className="space-y-5 overflow-hidden">
                   <div>
                     <h3 
-                      className="text-xs font-bold mb-1.5 uppercase tracking-wider opacity-80"
-                      style={{ color: "#7c3aed" }} // 使用 Hex 替代 text-primary
+                      className="text-xs font-bold mb-2 uppercase tracking-wider opacity-60"
+                      style={{ color: "#57534e" }} // Stone-600，更雅致的深灰色
                     >
                       视频介绍
                     </h3>
                     <p 
-                      className="text-sm leading-relaxed line-clamp-3 font-medium"
-                      style={{ color: "#334155" }}
+                      className="text-sm leading-relaxed line-clamp-3 font-medium pb-1"
+                      style={{ color: "#44403c", lineHeight: "1.6" }} // Stone-700，增加行高防止截断
                     >
                       {video.summary}
                     </p>
@@ -184,17 +184,17 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
                   
                   <div 
                     className="relative pl-4"
-                    style={{ borderLeft: "3px solid rgba(124, 58, 237, 0.3)" }}
+                    style={{ borderLeft: "3px solid #d6d3d1" }} // Stone-300，雅致的浅灰色竖线
                   >
                     <h3 
-                      className="text-xs font-bold mb-1.5 uppercase tracking-wider opacity-80"
-                      style={{ color: "#7c3aed" }}
+                      className="text-xs font-bold mb-2 uppercase tracking-wider opacity-60"
+                      style={{ color: "#57534e" }}
                     >
                       推荐理由
                     </h3>
                     <p 
-                      className="text-base font-serif italic leading-relaxed line-clamp-3"
-                      style={{ color: "#1e293b" }}
+                      className="text-base font-serif italic leading-relaxed line-clamp-3 pb-1"
+                      style={{ color: "#292524", lineHeight: "1.6" }} // Stone-800，深色强调
                     >
                       "{video.reason}"
                     </p>
