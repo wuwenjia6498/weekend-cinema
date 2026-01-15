@@ -28,14 +28,29 @@ interface PosterGeneratorProps {
   trigger?: React.ReactNode;
 }
 
-// 随机分配封面图
+// 获取封面图：优先使用专属封面，否则使用默认封面
 const getCoverImage = (id: number) => {
-  const covers = [
+  // 预定义的专属封面列表（仅作演示，实际项目中应由后端返回或检查文件是否存在）
+  const customCovers: Record<number, string> = {
+    1: "/images/covers/1.png", // 中国奇谭
+    2: "/images/covers/2.png", // 小蝌蚪找妈妈
+    3: "/images/covers/3.jpg", // 大闹天宫
+    31: "/images/covers/31.png", // Piper
+    32: "/images/covers/32.jpg", // La Luna
+    33: "/images/covers/33.jpg", // Partly Cloudy
+  };
+
+  if (customCovers[id]) {
+    return customCovers[id];
+  }
+
+  // 默认封面兜底
+  const defaultCovers = [
     "/images/cover-fantasy.jpg",
     "/images/cover-healing.jpg",
     "/images/cover-adventure.jpg",
   ];
-  return covers[id % covers.length];
+  return defaultCovers[id % defaultCovers.length];
 };
 
 export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
@@ -145,12 +160,14 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
                     {video.category.slice(0, 2).map((tag) => (
                       <span 
                         key={tag} 
-                        className="px-3 py-1 text-sm font-medium rounded-full backdrop-blur-md flex items-center justify-center leading-none"
+                        className="px-3 h-7 text-sm font-medium rounded-full backdrop-blur-md flex items-center justify-center"
                         style={{ 
                           backgroundColor: "rgba(255,255,255,0.2)", 
                           borderColor: "rgba(255,255,255,0.1)",
                           borderWidth: "1px",
-                          borderStyle: "solid"
+                          borderStyle: "solid",
+                          lineHeight: "1",
+                          paddingTop: "2px" // 微调垂直对齐
                         }}
                       >
                         {tag}
