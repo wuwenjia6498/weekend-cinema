@@ -10,6 +10,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Download, Share2, Loader2 } from "lucide-react";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { cn } from "@/lib/utils";
 
 interface Video {
@@ -88,6 +89,9 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
         )}
       </DialogTrigger>
       <DialogContent className="max-w-md p-0 overflow-hidden bg-transparent border-none shadow-none">
+        <VisuallyHidden>
+          <DialogTitle>生成海报 - {video.title}</DialogTitle>
+        </VisuallyHidden>
         <div className="flex flex-col items-center gap-4">
           {/* 海报预览区域 */}
           <div 
