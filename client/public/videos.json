@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "中国奇谭",
-    ""link": "https://www.bilibili.com/bangumi/media/md5849",
+    "link": "https://www.bilibili.com/bangumi/media/md5849",
     "duration": "8集，每集20分钟",
     "ageGroup": "8-12岁",
     "category": [
@@ -340,7 +340,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 20,
+    "id": 21,
     "title": "请吃红小豆吧！",
     "link": "https://www.bilibili.com/bangumi/play/ss24467",
     "duration": "多季，每集3分钟",
@@ -357,7 +357,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 21,
+    "id": 22,
     "title": "如果历史是一群喵",
     "link": "https://www.bilibili.com/bangumi/media/md129152",
     "duration": "多季，每集5分钟",
@@ -374,7 +374,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "罗小黑战记",
     "link": "https://www.bilibili.com/bangumi/play/ss1733",
     "duration": "多季，每集10分钟",
@@ -391,9 +391,10 @@
     "platform": "Bilibili"
   },
   {
-    "id": 28,
+    "id": 24,
     "title": "汉化日记",
-    "link": "https://www.bilibili.com/bangumi/media/md4314622",    "duration": "多季，每集5分钟",
+    "link": "https://www.bilibili.com/bangumi/media/md4314622",
+    "duration": "多季，每集5分钟",
     "ageGroup": "12岁以上",
     "category": [
       "国内动画短片",
@@ -407,7 +408,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 24,
+    "id": 25,
     "title": "白鸟谷",
     "link": "https://www.bilibili.com/video/BV1QW411G7aL",
     "duration": "15分钟",
@@ -424,9 +425,9 @@
     "platform": "Bilibili"
   },
   {
-    "id": 31,
+    "id": 26,
     "title": "大护法",
-    "link": "https://www.bilibili.com/video/BV1Jx411L7jZ/",,
+    "link": "https://www.bilibili.com/video/BV1Jx411L7jZ/",
     "duration": "3集，每集30分钟",
     "ageGroup": "12岁以上",
     "category": [
@@ -441,7 +442,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 26,
+    "id": 27,
     "title": "秋实",
     "link": "https://www.bilibili.com/video/BV1Ax411k7Pj?p=5",
     "duration": "5分钟",
@@ -458,7 +459,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 27,
+    "id": 28,
     "title": "刺客伍六七",
     "link": "https://www.bilibili.com/bangumi/media/md6360",
     "duration": "多季，每集15分钟",
@@ -475,7 +476,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 28,
+    "id": 29,
     "title": "风雨廊桥",
     "link": "https://www.bilibili.com/bangumi/media/md4314622",
     "duration": "20分钟",
@@ -492,7 +493,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 29,
+    "id": 30,
     "title": "凸变英雄",
     "link": "https://www.bilibili.com/bangumi/media/md5430",
     "duration": "90分钟",
@@ -509,7 +510,7 @@
     "platform": "Bilibili"
   },
   {
-    "id": 30,
+    "id": 31,
     "title": "妙先生",
     "link": "https://www.bilibili.com/video/BV12x411x74V",
     "duration": "89分钟",
@@ -973,7 +974,10 @@
     "rating": 9.0,
     "platform": "Bilibili"
   },
-      "id": 60,\n    "title": "父与子 (Father and Son)",\n    "link": "https://www.bilibili.com/video/BV1PE4wzAEd9",
+  {
+    "id": 60,
+    "title": "父与子 (Father and Son)",
+    "link": "https://www.bilibili.com/video/BV1PE4wzAEd9",
     "duration": "3分钟",
     "ageGroup": "3-12岁",
     "category": [
