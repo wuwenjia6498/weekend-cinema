@@ -99,61 +99,61 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
             className="w-full bg-white rounded-xl overflow-hidden shadow-2xl"
             style={{ aspectRatio: "3/5" }}
           >
-            {/* 封面图 */}
-            <div className="relative h-1/2 w-full">
+            {/* 封面图 - 增加高度占比至 55% */}
+            <div className="relative h-[55%] w-full">
               <img 
                 src={coverImage} 
                 alt={video.title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <div className="absolute bottom-4 left-6 right-6 text-white">
-                <div className="flex gap-2 mb-2">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+              <div className="absolute bottom-5 left-6 right-6 text-white">
+                <div className="flex gap-2 mb-3">
                   {video.category.slice(0, 2).map((tag) => (
-                    <span key={tag} className="px-2 py-0.5 text-xs bg-white/20 backdrop-blur-sm rounded-full">
+                    <span key={tag} className="px-2.5 py-0.5 text-sm font-medium bg-white/20 backdrop-blur-md rounded-full border border-white/10">
                       {tag}
                     </span>
                   ))}
                 </div>
-                <h2 className="text-2xl font-bold tracking-tight">{video.title}</h2>
+                <h2 className="text-3xl font-bold tracking-tight leading-tight drop-shadow-sm">{video.title}</h2>
               </div>
             </div>
 
-            {/* 内容区域 */}
-            <div className="p-6 h-1/2 flex flex-col justify-between bg-gradient-to-b from-white to-slate-50">
-              <div className="space-y-4 overflow-hidden">
+            {/* 内容区域 - 减少高度占比至 45% */}
+            <div className="p-6 h-[45%] flex flex-col justify-between bg-gradient-to-b from-white to-slate-50">
+              <div className="space-y-5 overflow-hidden">
                 <div>
-                  <h3 className="text-xs font-bold text-primary mb-1 uppercase tracking-wider">视频介绍</h3>
-                  <p className="text-slate-600 text-xs leading-relaxed line-clamp-3">
+                  <h3 className="text-xs font-bold text-primary mb-1.5 uppercase tracking-wider opacity-80">视频介绍</h3>
+                  <p className="text-slate-700 text-sm leading-relaxed line-clamp-3 font-medium">
                     {video.summary}
                   </p>
                 </div>
                 
-                <div className="relative pl-3 border-l-2 border-primary/20">
-                  <h3 className="text-xs font-bold text-primary mb-1 uppercase tracking-wider">推荐理由</h3>
-                  <p className="text-slate-700 text-sm font-medium italic leading-relaxed line-clamp-4">
+                <div className="relative pl-4 border-l-[3px] border-primary/30">
+                  <h3 className="text-xs font-bold text-primary mb-1.5 uppercase tracking-wider opacity-80">推荐理由</h3>
+                  <p className="text-slate-800 text-base font-serif italic leading-relaxed line-clamp-3">
                     "{video.reason}"
                   </p>
                 </div>
               </div>
 
               {/* 底部信息 */}
-              <div className="flex items-end justify-between pt-6 border-t border-slate-100">
+              <div className="flex items-end justify-between pt-5 border-t border-slate-100">
                 <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-lg">
+                  <div className="flex items-center gap-2.5 mb-1">
+                    <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-xl shadow-sm">
                       W
                     </div>
-                    <span className="font-bold text-slate-800">周末放映室</span>
+                    <span className="font-bold text-slate-900 text-lg tracking-tight">周末放映室</span>
                   </div>
-                  <p className="text-xs text-slate-400">精选优质儿童动画短片</p>
+                  <p className="text-sm text-slate-500 font-medium">精选优质儿童动画短片</p>
                 </div>
-                <div className="bg-white p-1.5 rounded-lg shadow-sm border border-slate-100">
+                <div className="bg-white p-2 rounded-xl shadow-sm border border-slate-100">
                   <QRCodeSVG 
                     value={shareUrl}
-                    size={64}
+                    size={72}
                     level="M"
-                    fgColor="#334155"
+                    fgColor="#1e293b"
                   />
                 </div>
               </div>
