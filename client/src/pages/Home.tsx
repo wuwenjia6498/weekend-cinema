@@ -50,9 +50,8 @@ export default function Home() {
     // Filter by tab category
     if (activeTab !== "all") {
       const categoryMap: Record<string, string> = {
-        "domestic": "国内动画",
-        "foreign": "国外动画"
-      };
+        "domestic": "国内动画短片",
+        "foreign": "国外动画短片",      };
       const targetCategory = categoryMap[activeTab];
       if (targetCategory) {
         result = result.filter(v => v.category.includes(targetCategory));
@@ -230,10 +229,10 @@ export default function Home() {
               <TabsList className="grid w-full grid-cols-3 h-10 p-1 bg-muted/50 rounded-lg">
                 <TabsTrigger value="all" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm text-sm">全部</TabsTrigger>
                 <TabsTrigger value="foreign" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
-                  <Globe className="w-3.5 h-3.5" /> 国外动画
+                  <Globe className="w-3.5 h-3.5" /> 国外动画短片
                 </TabsTrigger>
                 <TabsTrigger value="domestic" className="rounded-md data-[state=active]:bg-white data-[state=active]:shadow-sm gap-1.5 text-sm">
-                  <MapPin className="w-3.5 h-3.5" /> 国内动画
+                  <MapPin className="w-3.5 h-3.5" /> 国内动画短片
                 </TabsTrigger>
               </TabsList>
             </Tabs>

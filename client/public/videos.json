@@ -1,988 +1,316 @@
 [
   {
-    "id": 32,
-    "title": "鹬 (Piper)",
-    "link": "https://www.bilibili.com/video/BV1ux411P7Rt/",
-    "duration": "6分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "成长"
-    ],
-    "summary": "皮克斯奥斯卡获奖佳作。记录了一只恐水的小海鸟，在妈妈的引导下从畏惧海浪到勇敢探索，最终学会独立觅食的成长故事。",
-    "reason": "面对未知的恐惧，往往藏着成长的惊喜。那份尝试的勇气，是童年最闪亮的光芒。细腻真实的画面展现了成长的阵痛与喜悦。",
-    "rating": 9.3,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 33,
-    "title": "月神 (La Luna)",
-    "link": "https://www.bilibili.com/video/BV18Z4y1a7i4/",
-    "duration": "7分钟",
-    "ageGroup": "4-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "奇幻"
-    ],
-    "summary": "皮克斯奥斯卡提名短片，讲述祖孙三代在深夜划船登上月亮清理星星，小男孩在长辈的争执中找到属于自己工作方式的故事。",
-    "reason": "唯美梦幻的画面开启了对宇宙的浪漫想象。在传统的传承与个性的独立之间，找到了属于自己的方式去点亮心中的星空。",
-    "rating": 9.0,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 34,
-    "title": "暴力云与送子鹳 (Partly Cloudy)",
-    "link": "https://www.bilibili.com/video/BV1ap421173Q/",
-    "duration": "6分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "皮克斯"
-    ],
-    "summary": "皮克斯经典创意短片，讲述性格古怪的“暴力云”创造出危险的小动物，而忠诚的送子鹳历经艰辛依然坚持将其送达的感人故事。",
-    "reason": "幽默的方式诠释了友谊中的包容与忠诚。真正的朋友是理解你的不完美并依然并肩作战。每个孩子都是独一无二的“礼物”，值得耐心与理解。",
-    "rating": 9.1,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 35,
-    "title": "纸人 (Paperman)",
-    "link": "https://www.bilibili.com/video/BV15V4y1H7Sy/",
-    "duration": "7分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "爱情"
-    ],
-    "summary": "迪士尼奥斯卡获奖短片，采用黑白与彩色结合的独特画风，讲述一名男子在纸飞机的指引下，勇敢追寻街头偶遇缘分的浪漫故事。",
-    "reason": "极简的线条勾勒出执着与希望的力量。在面对梦想时勇于尝试、永不言弃，去创造属于自己的奇迹与美好。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 36,
-    "title": "美味盛宴 (Feast)",
-    "link": "https://www.bilibili.com/video/BV1Es41197CL/",
-    "duration": "6分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "萌宠"
-    ],
-    "summary": "迪士尼奥斯卡获奖短片，通过一只贪吃小狗视角下的饮食变化，巧妙串联起男主人从单身到恋爱、结婚再到生子的温情人生历程。",
-    "reason": "以宠物的忠诚与爱为纽带，展现了家庭生活的琐碎与幸福。在成长的点滴中，珍惜那些平凡而温暖的瞬间，共同构建充满爱的生活盛宴。",
-    "rating": 8.8,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 37,
-    "title": "鸟！鸟！鸟！(For the Birds)",
-    "link": "https://www.bilibili.com/video/BV1f64y197kP/",
-    "duration": "3分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "幽默"
-    ],
-    "summary": "皮克斯奥斯卡获奖短片，讲述一群排外的小鸟在电线上嘲笑一只大笨鸟，结果却因为自己的狭隘而自食其果的幽默寓言。",
-    "reason": "在爆笑中传递了关于包容与尊重的深刻道理。拒绝霸凌与排挤，学会欣赏他人的不同，在友善中收获真正的快乐。",
-    "rating": 8.7,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 38,
-    "title": "棋逢对手 (Geri's Game)",
-    "link": "https://www.bilibili.com/video/BV1J741167wd/",
-    "duration": "5分钟",
-    "ageGroup": "4-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "幽默"
-    ],
-    "summary": "皮克斯奥斯卡获奖短片，讲述一位老人在空荡的公园里独自下棋，通过分饰两角展开一场惊心动魄且充满反转的自我博弈。",
-    "reason": "精湛的动画技术展现了独处时的丰富内心世界，传递了乐观与自我娱乐的生活态度。在孤独中发现乐趣，培养独立的人格。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 39,
-    "title": "魔术师和兔子 (Presto)",
-    "link": "https://www.bilibili.com/video/BV1kZ4y1M7cA/",
-    "duration": "5分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "皮克斯"
-    ],
-    "summary": "皮克斯经典幽默短片，讲述魔术师因忘记喂食兔子胡萝卜，导致在舞台表演时遭到兔子一系列令人捧腹的捣乱与报复。",
-    "reason": "快节奏的肢体幽默背后，是关于尊重与合作的温馨启示。理解他人的需求，明白只有相互关爱才能成就精彩。",
-    "rating": 9.0,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 40,
-    "title": "昼与夜 (Day & Night)",
-    "link": "https://www.bilibili.com/video/BV1SZ4y1T7m6/",
-    "duration": "6分钟",
-    "ageGroup": "4-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "创意"
-    ],
-    "summary": "皮克斯奥斯卡提名短片，将“白天”与“黑夜”拟人化，通过两个角色从相互排斥到彼此欣赏，展现了同一世界不同时间的美丽。",
-    "reason": "2D与3D结合的奇妙创意，在视觉盛宴中理解差异与互补。不同并不代表对立，欣赏他人的独特能发现更广阔的世界。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 41,
-    "title": "绑架课 (Lifted)",
-    "link": "https://www.bilibili.com/video/BV1Jf4y117FK/",
-    "duration": "5分钟",
-    "ageGroup": "5-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "皮克斯"
-    ],
-    "summary": "皮克斯经典科幻幽默短片，讲述一名外星人学员在考官注视下尝试“绑架”人类，却因操作失误引发一连串混乱的考试趣事。",
-    "reason": "夸张的幽默缓解了对“考试”与“失败”的焦虑。勇于面对错误，在挫折中保持乐观，成长的过程本身就是不断试错与进步的旅程。",
-    "rating": 8.7,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 42,
-    "title": "洞穴 (Burrow)",
-    "link": "https://www.bilibili.com/video/BV1WV411b7RV/",
-    "duration": "6分钟",
-    "ageGroup": "4-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "皮克斯"
-    ],
-    "summary": "皮克斯奥斯卡提名短片，讲述一只害羞的小兔子想挖一个属于自己的完美地洞，却在误打误撞中学会向邻居寻求帮助并收获友谊。",
-    "reason": "温馨的手绘风格触碰了内心的社交小恐惧，传递了“求助并不可耻”的温暖力量。勇敢走出自我封闭，在互助中感受集体的温暖。",
-    "rating": 8.6,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 43,
-    "title": "小野猫与斗牛犬 (Kitbull)",
-    "link": "https://www.bilibili.com/video/BV11b411a7sR/",
-    "duration": "9分钟",
-    "ageGroup": "5-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "皮克斯"
-    ],
-    "summary": "皮克斯奥斯卡提名短片，讲述一只警惕的流浪小猫与一只受虐的斗牛犬，在冰冷的后院中跨越偏见、相互治愈并最终获得自由的故事。",
-    "reason": "细腻的情感打破了外貌的偏见，展现了友谊跨越种族与苦难的纯粹力量。温柔地对待世界，在爱与被爱中获得成长的勇气。",
-    "rating": 8.8,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 44,
-    "title": "发之恋 (Hair Love)",
-    "link": "https://www.bilibili.com/video/BV1h741147ZF/",
-    "duration": "7分钟",
-    "ageGroup": "4-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "亲情"
-    ],
-    "summary": "奥斯卡获奖动画短片，讲述一位非裔父亲在妻子缺席时，笨手笨脚却充满爱意地尝试为女儿打理难以驯服的卷发，展现深厚父女情。",
-    "reason": "平凡生活中的小小挑战折射出父爱的伟大与细腻。接纳真实的自我，在共同解决困难的过程中，筑起最坚实的爱之堡垒。",
-    "rating": 8.7,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 45,
-    "title": "失物招领 (Lou)",
-    "link": "https://www.bilibili.com/video/BV1AC4y1b7pq/",
-    "duration": "7分钟",
-    "ageGroup": "4-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "皮克斯"
-    ],
-    "summary": "皮克斯奥斯卡提名短片，讲述失物招领箱里的神秘生物Lou，通过巧妙的方式引导校园小霸王归还物品，并找回自己失落童心的故事。",
-    "reason": "奇幻的创意探讨了霸凌背后的情感缺失，传递了分享与补偿的治愈力量。在给予中收获真正的快乐与成长。",
-    "rating": 8.8,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 46,
-    "title": "微观小世界 (Minuscule)",
-    "link": "https://www.bilibili.com/video/BV1T24y1q7Ei/",
-    "duration": "5分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "大师艺术短片",
-      "法国"
-    ],
-    "summary": "法国经典创意动画，结合实景拍摄与3D技术，以无对白的形式展现了草丛中昆虫们充满幽默、竞争与智慧的微观生活。",
-    "reason": "独特的视角开启了探索自然的奇妙大门，在欢笑中激发了无限的想象力与观察力。一起蹲下来，去发现大自然中那些被忽略的精彩。",
-    "rating": 9.4,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 47,
-    "title": "彼得与狼 (Peter & the Wolf)",
-    "link": "https://www.bilibili.com/video/BV1VW411f7Wk/",
-    "duration": "30分钟",
-    "ageGroup": "5-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "音乐"
-    ],
-    "summary": "奥斯卡获奖定格动画，改编自普罗科菲耶夫经典交响童话，讲述勇敢少年彼得在小鸟帮助下，机智捕捉恶狼的冒险故事。",
-    "reason": "音乐与画面的完美契合，带来了一场震撼的艺术启蒙。在困境中保持勇气与智慧，在旋律与故事中培养坚韧的品格。",
-    "rating": 9.2,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 48,
-    "title": "瑞恩 (Ryan)",
-    "link": "https://www.bilibili.com/video/BV17h4y1g7EV/",
-    "duration": "14分钟",
-    "ageGroup": "10-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "传记"
-    ],
-    "summary": "奥斯卡获奖艺术短片，以独特的“心理现实主义”画风，记录了加拿大动画天才瑞恩·拉金从巅峰跌落至流浪街头的坎坷人生与艺术坚持。",
-    "reason": "震撼的视觉风格与深刻的人生探讨，适合大龄孩子理解艺术的纯粹与生活的复杂。思考自我价值与坚持的意义，获得面对现实的勇气。",
-    "rating": 8.8,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 49,
-    "title": "丹麦诗人 (The Danish Poet)",
-    "link": "https://www.bilibili.com/video/BV1f4411R7Kh/",
-    "duration": "15分钟",
+    "id": 1,
+    "title": "中国奇谭",
+    "link": "https://www.bilibili.com/video/BV18A411D7fX/",
+    "duration": "8集，每集20分钟",
     "ageGroup": "8-12岁",
     "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "爱情"
+      "国内动画短片",
+      "奇幻",
+      "文化"
     ],
-    "summary": "奥斯卡获奖动画短片，讲述一位丹麦诗人为寻灵感远赴挪威，在一连串奇妙巧合中收获爱情，并最终促成旁白诞生的浪漫故事。",
-    "reason": "简洁温暖的画风，描绘了缘分与巧合的美妙连接。珍惜每一次相遇，让爱自然流淌，触动人心。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 50,
-    "title": "老人与海 (The Old Man and the Sea)",
-    "link": "https://www.bilibili.com/video/BV1rA41117rS/",
-    "duration": "20分钟",
-    "ageGroup": "8-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "名著"
-    ],
-    "summary": "这部奥斯卡获奖的国外动画作品改编自海明威名著，讲述了一位老渔夫在茫茫大海中与巨鱼搏斗，彰显坚韧与勇气的动人故事。",
-    "reason": "独特的玻璃油画技法呈现流动的艺术之美，深刻传递出勇敢面对困难的力量。在坚持和成长中，独立前行。",
-    "rating": 9.1,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 51,
-    "title": "小黄人短片：比赛 (Competition)",
-    "link": "https://www.bilibili.com/video/BV1At411C7j4/",
-    "duration": "4分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "照明娱乐"
-    ],
-    "summary": "知名海外动画小黄人短片，讲述两位小黄人为了将纸团投进垃圾桶，展开一场既紧张又充满趣味的比赛。",
-    "reason": "轻松幽默的方式呈现竞争中的友谊与成长。勇敢尝试、享受过程，共同分享快乐时光。",
-    "rating": 8.7,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 52,
-    "title": "功夫熊猫：盖世五侠的秘密",
-    "link": "https://www.bilibili.com/video/BV1Ug411R7AG/",
-    "duration": "24分钟",
-    "ageGroup": "5-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "梦工厂"
-    ],
-    "summary": "梦工厂出品的经典国外动画短片，讲述阿宝为兔子们揭示盖世五侠各自鲜为人知的成长秘密，展现他们从挫折到蜕变的励志历程。",
-    "reason": "温柔地讲述了成长中的坚持与勇气。追寻梦想，感受友谊与信任的真谛。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 53,
-    "title": "驯龙高手：骨碎龙传说",
-    "link": "https://www.bilibili.com/video/BV14a411c74D/",
-    "duration": "16分钟",
-    "ageGroup": "5-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "梦工厂"
-    ],
-    "summary": "梦工厂出品的经典国外动画《驯龙高手：骨碎龙传说》讲述了小嗝嗝和伙伴们在寻觅传说中的骨碎龙过程中，逐步揭开它真实善良本质的冒险故事。",
-    "reason": "在幽默与冒险中，感受友谊的温暖与成长的力量。勇敢面对未知，守护我们所爱的一切。",
-    "rating": 9.0,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 54,
-    "title": "冰川时代：松鼠短片",
-    "link": "https://www.bilibili.com/video/BV1Xu411y7Aw/",
-    "duration": "5分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "蓝天工作室"
-    ],
-    "summary": "蓝天工作室出品的经典国外动画短片，讲述倒霉的松鼠奎特在追逐橡果过程中，无意中引发了一连串地质灾难的滑稽冒险。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.2,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 55,
-    "title": "兔耳袋狸 (Bilby)",
-    "link": "https://www.bilibili.com/video/BV1bW411A79d/",
-    "duration": "8分钟",
-    "ageGroup": "4-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "梦工厂"
-    ],
-    "summary": "梦工厂出品的国外动画短片，讲述在危机四伏的澳洲荒野，一只孤独的兔耳袋狸在保护一只无助小毛鸟的过程中，战胜自私、收获温暖的感人故事。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 56,
-    "title": "如果我是你 (If I Was You…)",
-    "link": "https://www.bilibili.com/video/BV15s411p7g3/",
-    "duration": "4分钟",
-    "ageGroup": "5-12岁",
-    "category": [
-      "国外动画",
-      "大师艺术短片",
-      "法国"
-    ],
-    "summary": "这部法国动画短片以独特的视角和创意，讲述了两个角色互换身份后的奇妙经历，引发关于自我认知与换位思考的深刻探讨。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.8,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 57,
-    "title": "绅士的决斗 (A Gentleman's Duel)",
-    "link": "https://www.bilibili.com/video/BV1Ps411p7D4/",
-    "duration": "8分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "国外动画",
-      "商业工作室经典",
-      "蓝天工作室"
-    ],
-    "summary": "蓝天工作室出品的国外动画短片，以夸张幽默的风格，讲述了两位绅士为争夺一位女士的青睐，驾驶着蒸汽朋克风格的机甲展开一场荒诞决斗的故事。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.7,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 58,
-    "title": "雇佣人生 (El Empleo)",
-    "link": "https://www.bilibili.com/video/BV1fs411p76L/",
-    "duration": "7分钟",
-    "ageGroup": "10-12岁",
-    "category": [
-      "国外动画",
-      "大师艺术短片",
-      "阿根廷"
-    ],
-    "summary": "这部来自阿根廷的国外动画短片，以极具讽刺意味的无对白形式，描绘了一个人人都被“物化”为工具的社会，引发对现代社会分工与异化的深刻反思。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.1,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 59,
-    "title": "平衡 (Balance)",
-    "link": "https://www.bilibili.com/video/BV1Hs411p7QW/",
-    "duration": "8分钟",
-    "ageGroup": "8-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "德国"
-    ],
-    "summary": "这部荣获奥斯卡最佳动画短片奖的德国作品，讲述了五名男子在一个悬浮平台上，为争夺一个神秘的箱子而打破平衡，最终导致毁灭的寓言故事。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.3,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 60,
-    "title": "商标的世界 (Logorama)",
-    "link": "https://www.bilibili.com/video/BV1us411p7Yg/",
-    "duration": "16分钟",
-    "ageGroup": "10-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "法国"
-    ],
-    "summary": "这部荣获奥斯卡金像奖的法国动画短片，构建了一个完全由商业Logo组成的世界，上演了一场米其林警探追捕麦当劳罪犯的警匪大片，极具创意与讽刺意味。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 61,
-    "title": "章鱼的爱情 (Oktapodi)",
-    "link": "https://www.bilibili.com/video/BV1Xs411p7iL/",
-    "duration": "3分钟",
-    "ageGroup": "3-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "法国"
-    ],
-    "summary": "这部荣获奥斯卡提名的法国动画短片，讲述了一只章鱼为了追回被抓走的女友，上演了一场惊心动魄、跨越陆地与海洋的爱情大追逐。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.7,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 62,
-    "title": "神奇飞书 (The Fantastic Flying Books of Mr. Morris Lessmore)",
-    "link": "https://www.bilibili.com/video/BV1Ys411p7iZ/",
-    "duration": "15分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "美国"
-    ],
-    "summary": "这部荣获奥斯卡最佳动画短片奖的美国作品，讲述了热爱书籍的莫里斯先生在一场飓风后，发现了一个充满会飞的、有生命的书籍的神奇图书馆，并在此度过一生的故事。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.2,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 63,
-    "title": "回忆积木小屋 (La Maison en Petits Cubes)",
-    "link": "https://www.bilibili.com/video/BV1ms411p7i3/",
-    "duration": "12分钟",
-    "ageGroup": "8-12岁",
-    "category": [
-      "国外动画",
-      "奥斯卡/国际获奖",
-      "日本"
-    ],
-    "summary": "这部荣获奥斯卡最佳动画短片奖的日本作品，讲述了一位老爷爷在不断上涨的海水中，通过一次次加盖房屋，潜入水下找寻烟斗时，回忆起一生中各个阶段的温情往事。",
-    "reason": "这部影片带来独特的观-体验，值得细细品味。",
-    "rating": 9.3,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 64,
-    "title": "中国唱诗班：相思 (A Love Poem)",
-    "link": "https://www.bilibili.com/video/BV1fx411P7i9/",
-    "duration": "15分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "中国风",
-      "诗词"
-    ],
-    "summary": "中国唱诗班系列动画，以王维的《相思》为灵感，讲述了嘉定名士王初桐与青梅竹马六娘的爱情故事，画面唯美，情感真挚。",
+    "summary": "上海美术电影制片厂出品的动画短片集，以中国传统文化为背景，融合了多种艺术风格，讲述了八个独立的奇幻故事。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
     "rating": 9.5,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 65,
-    "title": "中国唱诗班：游子吟 (A Traveler's Song)",
-    "link": "https://www.bilibili.com/video/BV1Gx411P7vj/",
-    "duration": "10分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "中国风",
-      "诗词"
-    ],
-    "summary": "中国唱诗班系列动画，以孟郊的《游子吟》为灵感，讲述了清代诗人蒋士铨与母亲的感人故事，展现了中华孝道文化。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.4,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 66,
-    "title": "中国唱诗班：饮湖上初晴后雨 (Drinking at the Lake after a Clear and Rainy Day)",
-    "link": "https://www.bilibili.com/video/BV15x411P77N/",
-    "duration": "10分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "中国风",
-      "诗词"
-    ],
-    "summary": "中国唱诗班系列动画，以苏轼的《饮湖上初晴后雨》为灵感，展现了杭州西湖的自然风光与人文情怀。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.3,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 67,
-    "title": "中国唱诗班：夜思 (Night Thoughts)",
-    "link": "https://www.bilibili.com/video/BV14x411P79N/",
-    "duration": "8分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "中国风",
-      "诗词"
-    ],
-    "summary": "中国唱诗班系列动画，以李白的《静夜思》为灵感，通过小男孩的视角，表达了对故乡和亲人的思念之情。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.2,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 68,
-    "title": "中国唱诗班：元日 (New Year's Day)",
-    "link": "https://www.bilibili.com/video/BV12x411P7fF/",
-    "duration": "12分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "中国风",
-      "诗词"
-    ],
-    "summary": "中国唱诗班系列动画，以王安石的《元日》为灵感，展现了中国传统春节的习俗和喜庆氛围。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.3,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 69,
-    "title": "向着明亮那方 (To the Bright Side)",
-    "link": "https://www.bilibili.com/video/BV17f4y1y72x/",
-    "duration": "10分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "治愈",
-      "成长"
-    ],
-    "summary": "由绘本改编的国产动画短片，讲述了小女孩在面对生活中的不如意时，如何寻找光明、积极面对的故事，画风温暖，寓意深刻。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.1,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 70,
-    "title": "识途 (The Way Home)",
-    "link": "https://www.bilibili.com/video/BV1fV411b71x/",
-    "duration": "8分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "亲情",
-      "传统文化"
-    ],
-    "summary": "国产原创动画短片，讲述了小男孩在爷爷的指引下，通过传统风筝找到回家之路的故事，展现了浓厚的亲情和传统文化魅力。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.0,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 71,
-    "title": "落凡尘 (Fallen Dust)",
-    "link": "https://www.bilibili.com/video/BV15b411a7yR/",
-    "duration": "7分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "奇幻",
-      "哲思"
-    ],
-    "summary": "国产原创动画短片，以独特的视觉风格和叙事手法，探讨了生命、轮回与自然的关系，充满哲思。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 72,
-    "title": "再见 (Goodbye)",
-    "link": "https://www.bilibili.com/video/BV1h741147qF/",
-    "duration": "6分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "友情",
-      "告别"
-    ],
-    "summary": "国产原创动画短片，讲述了小女孩与陪伴自己多年的玩具告别的故事，情感细腻，引人深思。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.8,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 73,
-    "title": "冲破天际 (Breaking Through)",
-    "link": "https://www.bilibili.com/video/BV1AC4y1b7qV/",
-    "duration": "9分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "现代创新系列",
-      "励志",
-      "梦想"
-    ],
-    "summary": "国产原创动画短片，讲述了小男孩通过不懈努力，最终实现飞行梦想的故事，充满正能量。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.0,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 1,
-    "title": "大闹天宫",
-    "link": "https://www.bilibili.com/video/BV1fx411P7i9/",
-    "duration": "1小时40分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "经典中国学派",
-      "神话",
-      "西游记"
-    ],
-    "summary": "中国动画史上的里程碑之作，讲述了孙悟空大闹天宫的经典故事，艺术风格独特，影响深远。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.8,
     "platform": "Bilibili"
   },
   {
     "id": 2,
     "title": "小蝌蚪找妈妈",
-    "link": "https://www.bilibili.com/video/BV1Gx411P7vj/",
+    "link": "https://www.bilibili.com/video/BV1ZK4y1N7kC/",
     "duration": "15分钟",
     "ageGroup": "3-6岁",
     "category": [
-      "经典中国学派",
-      "水墨动画",
-      "亲情"
+      "国内动画短片",
+      "水墨",
+      "科普"
     ],
-    "summary": "中国第一部水墨动画片，讲述小蝌蚪找妈妈的温馨故事，画风优美，充满童趣。",
+    "summary": "中国第一部水墨动画片，讲述了一群小蝌蚪在寻找妈妈的过程中，了解青蛙生长过程的故事。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.6,
+    "rating": 9.2,
     "platform": "Bilibili"
   },
   {
     "id": 3,
-    "title": "牧笛",
-    "link": "https://www.bilibili.com/video/BV15x411P77N/",
-    "duration": "20分钟",
+    "title": "大闹天宫",
+    "link": "https://www.bilibili.com/video/BV12b4y1S73f/",
+    "duration": "114分钟",
     "ageGroup": "6-12岁",
     "category": [
-      "经典中国学派",
-      "水墨动画",
-      "田园"
-    ],
-    "summary": "中国水墨动画的代表作之一，通过牧童与水牛的故事，展现了中国传统田园风光和诗意生活。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.5,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 4,
-    "title": "山水情",
-    "link": "https://www.bilibili.com/video/BV14x411P79N/",
-    "duration": "18分钟",
-    "ageGroup": "8-12岁",
-    "category": [
-      "经典中国学派",
-      "水墨动画",
-      "师徒情"
-    ],
-    "summary": "中国水墨动画的巅峰之作，讲述了老琴师与少年之间的师徒情谊，意境深远，被誉为“中国动画水墨画的绝唱”。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.7,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 5,
-    "title": "哪吒闹海",
-    "link": "https://www.bilibili.com/video/BV12x411P7fF/",
-    "duration": "1小时5分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "经典中国学派",
+      "国内动画短片",
       "神话",
-      "反抗"
+      "经典"
     ],
-    "summary": "根据中国神话故事改编，讲述了哪吒不畏强权、反抗龙王的故事，是中国动画的经典代表作。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.6,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 6,
-    "title": "金猴降妖",
-    "link": "https://www.bilibili.com/video/BV17f4y1y72x/",
-    "duration": "1小时20分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "经典中国学派",
-      "神话",
-      "西游记"
-    ],
-    "summary": "上海美术电影制片厂出品，讲述了孙悟空三打白骨精的故事，是中国动画的经典之作。",
+    "summary": "中国动画史上的丰碑之作，讲述了孙悟空从诞生到大闹天宫的经典故事，展现了不畏强权的反抗精神。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
     "rating": 9.4,
     "platform": "Bilibili"
   },
   {
-    "id": 7,
-    "title": "天书奇谭",
-    "link": "https://www.bilibili.com/video/BV1fV411b71x/",
-    "duration": "1小时29分钟",
+    "id": 4,
+    "title": "哪吒闹海",
+    "link": "https://www.bilibili.com/video/BV1qW411A7xS/",
+    "duration": "65分钟",
     "ageGroup": "6-12岁",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "神话",
-      "奇幻"
+      "经典"
     ],
-    "summary": "中国动画的瑰宝，讲述了天宫袁公下凡，传授天书，与狐狸精斗智斗勇的故事，充满想象力。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.5,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 8,
-    "title": "宝莲灯",
-    "link": "https://www.bilibili.com/video/BV15b411a7yR/",
-    "duration": "1小时30分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "经典中国学派",
-      "神话",
-      "亲情"
-    ],
-    "summary": "根据中国神话故事改编，讲述了沉香劈山救母的故事，画面精美，情感动人。",
+    "summary": "中国第一部宽银幕动画长片，讲述了哪吒反抗龙王压迫、为民除害的悲壮故事，展现了少年英雄的果敢与担当。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
     "rating": 9.3,
     "platform": "Bilibili"
   },
   {
-    "id": 9,
-    "title": "神笔马良",
-    "link": "https://www.bilibili.com/video/BV1h741147qF/",
+    "id": 5,
+    "title": "三个和尚",
+    "link": "https://www.bilibili.com/video/BV13W411A7G7/",
     "duration": "20分钟",
-    "ageGroup": "3-9岁",
+    "ageGroup": "4-9岁",
     "category": [
-      "经典中国学派",
-      "寓言",
-      "奇幻"
+      "国内动画短片",
+      "哲理",
+      "默片"
     ],
-    "summary": "中国经典动画片，讲述了马良得到神笔后，为穷人画画，与贪官斗争的故事，寓教于乐。",
+    "summary": "一部无对白的哲理动画短片，通过“一个和尚挑水喝，两个和尚抬水喝，三个和尚没水喝”的民间谚语，揭示了团队协作的重要性。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 6,
+    "title": "牧笛",
+    "link": "https://www.bilibili.com/video/BV1Qx411c7mU/",
+    "duration": "20分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "国内动画短片",
+      "水墨",
+      "艺术"
+    ],
+    "summary": "一部充满诗情画意的水墨动画，讲述了牧童寻找走失水牛的故事，展现了中国山水画的意境之美。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 7,
+    "title": "山水情",
+    "link": "https://www.bilibili.com/video/BV1Rs411h7Ea/",
+    "duration": "19分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "国内动画短片",
+      "水墨",
+      "师生情"
+    ],
+    "summary": "水墨动画的巅峰之作，讲述了老琴师将古琴技艺传授给渔家少年，最终洒脱离去的感人故事，意境深远。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.4,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 8,
+    "title": "雪孩子",
+    "link": "https://www.bilibili.com/video/BV13f4y1y74N/",
+    "duration": "20分钟",
+    "ageGroup": "3-6岁",
+    "category": [
+      "国内动画短片",
+      "友情",
+      "感人"
+    ],
+    "summary": "一部感人至深的动画短片，讲述了雪孩子为救被困火海的小白兔而牺牲自己的故事，教会孩子什么是友谊与奉献。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 9,
+    "title": "九色鹿",
+    "link": "https://www.bilibili.com/video/BV1U54y1y7vC/",
+    "duration": "24分钟",
+    "ageGroup": "5-9岁",
+    "category": [
+      "国内动画短片",
+      "敦煌壁画",
+      "寓言"
+    ],
+    "summary": "根据敦煌壁画《鹿王本生》故事改编，讲述了美丽的九色鹿救人后反被出卖的寓言故事，画面风格独特，充满异域风情。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
     "rating": 9.2,
     "platform": "Bilibili"
   },
   {
     "id": 10,
-    "title": "三个和尚",
-    "link": "https://www.bilibili.com/video/BV1AC4y1b7qV/",
-    "duration": "20分钟",
-    "ageGroup": "3-6岁",
-    "category": [
-      "经典中国学派",
-      "寓言",
-      "合作"
-    ],
-    "summary": "中国经典动画片，通过三个和尚没水喝的故事，寓意“一个和尚挑水喝，两个和尚抬水喝，三个和尚没水喝”，强调合作的重要性。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.0,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 11,
-    "title": "南郭先生",
-    "link": "https://www.bilibili.com/video/BV1f4411R7Kh/",
-    "duration": "10分钟",
-    "ageGroup": "6-9岁",
-    "category": [
-      "经典中国学派",
-      "寓言",
-      "诚信"
-    ],
-    "summary": "根据中国寓言故事改编，讲述了南郭先生滥竽充数的故事，教育人们要诚实守信。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.8,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 12,
-    "title": "愚公移山",
-    "link": "https://www.bilibili.com/video/BV1rA41117rS/",
-    "duration": "20分钟",
+    "title": "天书奇谭",
+    "link": "https://www.bilibili.com/video/BV1vW411A7M4/",
+    "duration": "89分钟",
     "ageGroup": "6-12岁",
     "category": [
-      "经典中国学派",
-      "寓言",
-      "毅力"
+      "国内动画短片",
+      "奇幻",
+      "经典"
     ],
-    "summary": "根据中国寓言故事改编，讲述了愚公移山的故事，展现了中华民族坚韧不拔的毅力。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.1,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 13,
-    "title": "半夜鸡叫",
-    "link": "https://www.bilibili.com/video/BV1At411C7j4/",
-    "duration": "15分钟",
-    "ageGroup": "6-9岁",
-    "category": [
-      "经典中国学派",
-      "寓言",
-      "智慧"
-    ],
-    "summary": "根据中国民间故事改编，讲述了周扒皮半夜学鸡叫，被小长工识破的故事，教育人们要勇敢反抗剥削。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 14,
-    "title": "阿凡提的故事",
-    "link": "https://www.bilibili.com/video/BV1Ug411R7AG/",
-    "duration": "1小时30分钟",
-    "ageGroup": "6-12岁",
-    "category": [
-      "经典中国学派",
-      "民间故事",
-      "智慧"
-    ],
-    "summary": "中国经典木偶动画片，讲述了阿凡提运用智慧惩治巴依老爷的故事，幽默风趣，寓意深刻。",
+    "summary": "一部充满奇思妙想的动画长片，讲述了少年蛋生学习天书、与三只狐狸精斗智斗勇的故事，情节幽默，想象力丰富。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
     "rating": 9.3,
     "platform": "Bilibili"
   },
   {
-    "id": 15,
-    "title": "葫芦兄弟",
-    "link": "https://www.bilibili.com/video/BV14a411c74D/",
-    "duration": "13集，每集10分钟",
+    "id": 11,
+    "title": "宝莲灯",
+    "link": "https://www.bilibili.com/video/BV1T4411M7fS/",
+    "duration": "85分钟",
     "ageGroup": "6-12岁",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "神话",
+      "亲情"
+    ],
+    "summary": "中国商业动画电影的里程碑，讲述了沉香历经艰辛、劈山救母的感人故事，配乐经典，情感真挚。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 12,
+    "title": "黑猫警长",
+    "link": "https://www.bilibili.com/video/BV1QW411A71t/",
+    "duration": "5集，每集20分钟",
+    "ageGroup": "5-9岁",
+    "category": [
+      "国内动画短片",
+      "科普",
+      "侦探"
+    ],
+    "summary": "中国经典的科普动画系列，讲述了黑猫警长带领伙伴们侦破案件、维护森林和平的故事，情节紧张，寓教于乐。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 13,
+    "title": "葫芦兄弟",
+    "link": "https://www.bilibili.com/video/BV15W411A7p5/",
+    "duration": "13集，每集10分钟",
+    "ageGroup": "4-9岁",
+    "category": [
+      "国内动画短片",
+      "剪纸",
+      "神话"
+    ],
+    "summary": "中国剪纸动画的代表作，讲述了七个葫芦娃为救爷爷，与妖精斗智斗勇的故事，形象鲜明，深入人心。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 14,
+    "title": "舒克和贝塔",
+    "link": "https://www.bilibili.com/video/BV1aW411A73z/",
+    "duration": "13集，每集20分钟",
+    "ageGroup": "5-9岁",
+    "category": [
+      "国内动画短片",
+      "童话",
       "冒险"
     ],
-    "summary": "中国经典剪纸动画片，讲述了七个葫芦娃与妖精斗争的故事，是中国几代人的童年回忆。",
+    "summary": "根据郑渊洁童话改编，讲述了小老鼠舒克和贝塔的冒险故事，传递了友谊、勇气和正义的价值观。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.5,
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 15,
+    "title": "魔方大厦",
+    "link": "https://www.bilibili.com/video/BV1UW411A79j/",
+    "duration": "10集，每集10分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "国内动画短片",
+      "奇幻",
+      "童年阴影"
+    ],
+    "summary": "一部风格诡异、充满想象力的动画，讲述了男孩莱克进入魔方世界后的奇幻经历，因其独特的艺术风格和深刻的寓意而备受争议。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.8,
     "platform": "Bilibili"
   },
   {
     "id": 16,
-    "title": "黑猫警长",
-    "link": "https://www.bilibili.com/video/BV1Xu411y7Aw/",
-    "duration": "5集，每集20分钟",
-    "ageGroup": "6-12岁",
+    "title": "邋遢大王奇遇记",
+    "link": "https://www.bilibili.com/video/BV1TW411A7Uu/",
+    "duration": "13集，每集10分钟",
+    "ageGroup": "6-10岁",
     "category": [
-      "经典中国学派",
-      "侦探",
-      "科普"
+      "国内动画短片",
+      "科普",
+      "冒险"
     ],
-    "summary": "中国经典动画片，讲述了黑猫警长带领警士侦破案件的故事，充满正义感和科普知识。",
+    "summary": "一部寓教于乐的科普动画，讲述了一个不爱干净的小男孩被老鼠带到地下王国后的冒险故事，倡导养成良好的卫生习惯。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 9.4,
+    "rating": 8.9,
     "platform": "Bilibili"
   },
   {
     "id": 17,
-    "title": "舒克和贝塔",
-    "link": "https://www.bilibili.com/video/BV1bW411A79d/",
-    "duration": "13集，每集20分钟",
+    "title": "阿凡提的故事",
+    "link": "https://www.bilibili.com/video/BV1QW411A7hD/",
+    "duration": "14集，每集25分钟",
     "ageGroup": "6-12岁",
     "category": [
-      "经典中国学派",
-      "冒险",
-      "友情"
+      "国内动画短片",
+      "木偶",
+      "智慧"
     ],
-    "summary": "根据郑渊洁童话改编，讲述了飞行员舒克和坦克手贝塔的冒险故事，充满想象力。",
+    "summary": "一部经典的木偶动画系列，讲述了新疆民间传说人物阿凡提运用智慧惩恶扬善、帮助百姓的幽默故事。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
     "rating": 9.3,
     "platform": "Bilibili"
   },
   {
     "id": 18,
-    "title": "魔方大厦",
-    "link": "https://www.bilibili.com/video/BV15s411p7g3/",
-    "duration": "10集，每集20分钟",
-    "ageGroup": "8-12岁",
+    "title": "没头脑和不高兴",
+    "link": "https://www.bilibili.com/video/BV15W411A7gN/",
+    "duration": "20分钟",
+    "ageGroup": "4-9岁",
     "category": [
-      "经典中国学派",
-      "奇幻",
-      "哲思"
+      "国内动画短片",
+      "教育",
+      "搞笑"
     ],
-    "summary": "根据郑渊洁童话改编，讲述了小男孩进入魔方大厦后的奇幻经历，充满黑色幽默和哲思。",
-    "reason": "这部影片带来独特的观影体验，值得细细品味。",
-    "rating": 8.9,
-    "platform": "Bilibili"
-  },
-  {
-    "id": 19,
-    "title": "我为歌狂",
-    "link": "https://www.bilibili.com/video/BV1Ps411p7D4/",
-    "duration": "52集，每集20分钟",
-    "ageGroup": "10-16岁",
-    "category": [
-      "经典中国学派",
-      "青春",
-      "音乐"
-    ],
-    "summary": "中国第一部校园音乐动画片，讲述了南华高中一群热爱音乐的少年组建乐队，追求梦想的故事。",
+    "summary": "一部经典的教育动画短片，通过“没头脑”和“不高兴”两个孩子的夸张故事，生动地指出了粗心和任性的缺点。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
     "rating": 9.0,
     "platform": "Bilibili"
   },
   {
+    "id": 19,
+    "title": "我为歌狂",
+    "link": "https://www.bilibili.com/video/BV1iW411A79Z/",
+    "duration": "26集，每集20分钟",
+    "ageGroup": "10-16岁",
+    "category": [
+      "国内动画短片",
+      "青春",
+      "音乐"
+    ],
+    "summary": "中国第一部校园音乐题材动画，讲述了“OPEN”乐队的成长故事，展现了青春的梦想、友谊与烦恼，是许多80、90后的童年回忆。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
     "id": 20,
     "title": "秦时明月",
-    "link": "https://www.bilibili.com/video/BV1fs411p76L/",
+    "link": "https://www.bilibili.com/video/BV1xW411A7kM/",
     "duration": "多季，每集22分钟",
     "ageGroup": "12岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "武侠",
       "历史"
     ],
@@ -998,7 +326,7 @@
     "duration": "多季，每集13分钟",
     "ageGroup": "3-9岁",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "搞笑",
       "环保"
     ],
@@ -1014,7 +342,7 @@
     "duration": "多季，每集15分钟",
     "ageGroup": "3-9岁",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "搞笑",
       "友情"
     ],
@@ -1030,7 +358,7 @@
     "duration": "多季，每集5分钟",
     "ageGroup": "12岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "搞笑",
       "神话"
     ],
@@ -1046,7 +374,7 @@
     "duration": "多季，每集10分钟",
     "ageGroup": "8岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "奇幻",
       "治愈"
     ],
@@ -1062,7 +390,7 @@
     "duration": "3集，每集30分钟",
     "ageGroup": "12岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "国风",
       "武侠"
     ],
@@ -1078,7 +406,7 @@
     "duration": "多季，每集30分钟",
     "ageGroup": "16岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "科幻",
       "末日"
     ],
@@ -1094,7 +422,7 @@
     "duration": "多季，每集15分钟",
     "ageGroup": "12岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "搞笑",
       "热血"
     ],
@@ -1110,7 +438,7 @@
     "duration": "多季，每集24分钟",
     "ageGroup": "12岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "玄幻",
       "异能"
     ],
@@ -1126,7 +454,7 @@
     "duration": "多季，每集20分钟",
     "ageGroup": "12岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "热血",
       "奇幻"
     ],
@@ -1142,7 +470,7 @@
     "duration": "多季，每集24分钟",
     "ageGroup": "12岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "电竞",
       "励志"
     ],
@@ -1158,13 +486,685 @@
     "duration": "多季，每集20分钟",
     "ageGroup": "12岁以上",
     "category": [
-      "经典中国学派",
+      "国内动画短片",
       "玄幻",
       "修仙"
     ],
     "summary": "中国原创玄幻动画，根据唐家三少同名小说改编，讲述了唐三在斗罗大陆的成长故事，特效精美，剧情还原度高。",
     "reason": "这部影片带来独特的观影体验，值得细细品味。",
     "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 32,
+    "title": "鹬 (Piper)",
+    "link": "https://www.bilibili.com/video/BV1ux411P7Rt/",
+    "duration": "6分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "成长"
+    ],
+    "summary": "皮克斯奥斯卡获奖佳作。记录了一只恐水的小海鸟，在妈妈的引导下从畏惧海浪到勇敢探索，最终学会独立觅食的成长故事。",
+    "reason": "面对未知的恐惧，往往藏着成长的惊喜。那份尝试的勇气，是童年最闪亮的光芒。细腻真实的画面展现了成长的阵痛与喜悦。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 33,
+    "title": "月神 (La Luna)",
+    "link": "https://www.bilibili.com/video/BV18Z4y1a7i4/",
+    "duration": "7分钟",
+    "ageGroup": "4-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "奇幻"
+    ],
+    "summary": "皮克斯奥斯卡提名短片，讲述祖孙三代在深夜划船登上月亮清理星星，小男孩在长辈的争执中找到属于自己工作方式的故事。",
+    "reason": "唯美梦幻的画面开启了对宇宙的浪漫想象。在传统的传承与个性的独立之间，找到了属于自己的方式去点亮心中的星空。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 34,
+    "title": "暴力云与送子鹳 (Partly Cloudy)",
+    "link": "https://www.bilibili.com/video/BV1ap421173Q/",
+    "duration": "6分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "皮克斯"
+    ],
+    "summary": "皮克斯经典创意短片，讲述性格古怪的“暴力云”创造出危险的小动物，而忠诚的送子鹳历经艰辛依然坚持将其送达的感人故事。",
+    "reason": "幽默的方式诠释了友谊中的包容与忠诚。真正的朋友是理解你的不完美并依然并肩作战。每个孩子都是独一无二的“礼物”，值得耐心与理解。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 35,
+    "title": "纸人 (Paperman)",
+    "link": "https://www.bilibili.com/video/BV15V4y1H7Sy/",
+    "duration": "7分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "爱情"
+    ],
+    "summary": "迪士尼奥斯卡获奖短片，采用黑白与彩色结合的独特画风，讲述一名男子在纸飞机的指引下，勇敢追寻街头偶遇缘分的浪漫故事。",
+    "reason": "极简的线条勾勒出执着与希望的力量。在面对梦想时勇于尝试、永不言弃，去创造属于自己的奇迹与美好。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 36,
+    "title": "美味盛宴 (Feast)",
+    "link": "https://www.bilibili.com/video/BV1Es41197CL/",
+    "duration": "6分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "萌宠"
+    ],
+    "summary": "迪士尼奥斯卡获奖短片，通过一只贪吃小狗视角下的饮食变化，巧妙串联起男主人从单身到恋爱、结婚再到生子的温情人生历程。",
+    "reason": "以宠物的忠诚与爱为纽带，展现了家庭生活的琐碎与幸福。在成长的点滴中，珍惜那些平凡而温暖的瞬间，共同构建充满爱的生活盛宴。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 37,
+    "title": "鸟！鸟！鸟！(For the Birds)",
+    "link": "https://www.bilibili.com/video/BV1f64y197kP/",
+    "duration": "3分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "幽默"
+    ],
+    "summary": "皮克斯奥斯卡获奖短片，讲述一群排外的小鸟在电线上嘲笑一只大笨鸟，结果却因为自己的狭隘而自食其果的幽默寓言。",
+    "reason": "在爆笑中传递了关于包容与尊重的深刻道理。拒绝霸凌与排挤，学会欣赏他人的不同，在友善中收获真正的快乐。",
+    "rating": 8.7,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 38,
+    "title": "棋逢对手 (Geri's Game)",
+    "link": "https://www.bilibili.com/video/BV1J741167wd/",
+    "duration": "5分钟",
+    "ageGroup": "4-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "幽默"
+    ],
+    "summary": "皮克斯奥斯卡获奖短片，讲述一位老人在空荡的公园里独自下棋，通过分饰两角展开一场惊心动魄且充满反转的自我博弈。",
+    "reason": "精湛的动画技术展现了独处时的丰富内心世界，传递了乐观与自我娱乐的生活态度。在孤独中发现乐趣，培养独立的人格。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 39,
+    "title": "魔术师和兔子 (Presto)",
+    "link": "https://www.bilibili.com/video/BV1kZ4y1M7cA/",
+    "duration": "5分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "皮克斯"
+    ],
+    "summary": "皮克斯经典幽默短片，讲述魔术师因忘记喂食兔子胡萝卜，导致在舞台表演时遭到兔子一系列令人捧腹的捣乱与报复。",
+    "reason": "快节奏的肢体幽默背后，是关于尊重与合作的温馨启示。理解他人的需求，明白只有相互关爱才能成就精彩。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 40,
+    "title": "昼与夜 (Day & Night)",
+    "link": "https://www.bilibili.com/video/BV1SZ4y1T7m6/",
+    "duration": "6分钟",
+    "ageGroup": "4-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "创意"
+    ],
+    "summary": "皮克斯奥斯卡提名短片，将“白天”与“黑夜”拟人化，通过两个角色从相互排斥到彼此欣赏，展现了同一世界不同时间的美丽。",
+    "reason": "2D与3D结合的奇妙创意，在视觉盛宴中理解差异与互补。不同并不代表对立，欣赏他人的独特能发现更广阔的世界。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 41,
+    "title": "绑架课 (Lifted)",
+    "link": "https://www.bilibili.com/video/BV1Jf4y117FK/",
+    "duration": "5分钟",
+    "ageGroup": "5-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "皮克斯"
+    ],
+    "summary": "皮克斯经典科幻幽默短片，讲述一名外星人学员在考官注视下尝试“绑架”人类，却因操作失误引发一连串混乱的考试趣事。",
+    "reason": "夸张的幽默缓解了对“考试”与“失败”的焦虑。勇于面对错误，在挫折中保持乐观，成长的过程本身就是不断试错与进步的旅程。",
+    "rating": 8.7,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 42,
+    "title": "洞穴 (Burrow)",
+    "link": "https://www.bilibili.com/video/BV1WV411b7RV/",
+    "duration": "6分钟",
+    "ageGroup": "4-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "皮克斯"
+    ],
+    "summary": "皮克斯奥斯卡提名短片，讲述一只害羞的小兔子想挖一个属于自己的完美地洞，却在误打误撞中学会向邻居寻求帮助并收获友谊。",
+    "reason": "温馨的手绘风格触碰了内心的社交小恐惧，传递了“求助并不可耻”的温暖力量。勇敢走出自我封闭，在互助中感受集体的温暖。",
+    "rating": 8.6,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 43,
+    "title": "小野猫与斗牛犬 (Kitbull)",
+    "link": "https://www.bilibili.com/video/BV11b411a7sR/",
+    "duration": "9分钟",
+    "ageGroup": "5-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "皮克斯"
+    ],
+    "summary": "皮克斯奥斯卡提名短片，讲述一只警惕的流浪小猫与一只受虐的斗牛犬，在冰冷的后院中跨越偏见、相互治愈并最终获得自由的故事。",
+    "reason": "细腻的情感打破了外貌的偏见，展现了友谊跨越种族与苦难的纯粹力量。温柔地对待世界，在爱与被爱中获得成长的勇气。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 44,
+    "title": "发之恋 (Hair Love)",
+    "link": "https://www.bilibili.com/video/BV1h741147ZF/",
+    "duration": "7分钟",
+    "ageGroup": "4-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "亲情"
+    ],
+    "summary": "奥斯卡获奖动画短片，讲述一位非裔父亲在妻子缺席时，笨手笨脚却充满爱意地尝试为女儿打理难以驯服的卷发，展现深厚父女情。",
+    "reason": "平凡生活中的小小挑战折射出父爱的伟大与细腻。接纳真实的自我，在共同解决困难的过程中，筑起最坚实的爱之堡垒。",
+    "rating": 8.7,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 45,
+    "title": "失物招领 (Lou)",
+    "link": "https://www.bilibili.com/video/BV1AC4y1b7pq/",
+    "duration": "7分钟",
+    "ageGroup": "4-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "皮克斯"
+    ],
+    "summary": "皮克斯奥斯卡提名短片，讲述失物招领箱里的神秘生物Lou，通过巧妙的方式引导校园小霸王归还物品，并找回自己失落童心的故事。",
+    "reason": "奇幻的创意探讨了霸凌背后的情感缺失，传递了分享与补偿的治愈力量。在给予中收获真正的快乐与成长。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 46,
+    "title": "微观小世界 (Minuscule)",
+    "link": "https://www.bilibili.com/video/BV1T24y1q7Ei/",
+    "duration": "5分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "大师艺术短片",
+      "法国"
+    ],
+    "summary": "法国经典创意动画，结合实景拍摄与3D技术，以无对白的形式展现了草丛中昆虫们充满幽默、竞争与智慧的微观生活。",
+    "reason": "独特的视角开启了探索自然的奇妙大门，在欢笑中激发了无限的想象力与观察力。一起蹲下来，去发现大自然中那些被忽略的精彩。",
+    "rating": 9.4,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 47,
+    "title": "彼得与狼 (Peter & the Wolf)",
+    "link": "https://www.bilibili.com/video/BV1VW411f7Wk/",
+    "duration": "30分钟",
+    "ageGroup": "5-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "音乐"
+    ],
+    "summary": "奥斯卡获奖定格动画，改编自普罗科菲耶夫经典交响童话，讲述勇敢少年彼得在小鸟帮助下，机智捕捉恶狼的冒险故事。",
+    "reason": "音乐与画面的完美契合，带来了一场震撼的艺术启蒙。在困境中保持勇气与智慧，在旋律与故事中培养坚韧的品格。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 48,
+    "title": "瑞恩 (Ryan)",
+    "link": "https://www.bilibili.com/video/BV17h4y1g7EV/",
+    "duration": "14分钟",
+    "ageGroup": "10-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "传记"
+    ],
+    "summary": "奥斯卡获奖艺术短片，以独特的“心理现实主义”画风，记录了加拿大动画天才瑞恩·拉金从巅峰跌落至流浪街头的坎坷人生与艺术坚持。",
+    "reason": "震撼的视觉风格与深刻的人生探讨，适合大龄孩子理解艺术的纯粹与生活的复杂。思考自我价值与坚持的意义，获得面对现实的勇气。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 49,
+    "title": "丹麦诗人 (The Danish Poet)",
+    "link": "https://www.bilibili.com/video/BV1f4411R7Kh/",
+    "duration": "15分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "爱情"
+    ],
+    "summary": "奥斯卡获奖动画短片，讲述一位丹麦诗人为寻灵感远赴挪威，在一连串奇妙巧合中收获爱情，并最终促成旁白诞生的浪漫故事。",
+    "reason": "简洁温暖的画风，描绘了缘分与巧合的美妙连接。珍惜每一次相遇，让爱自然流淌，触动人心。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 50,
+    "title": "老人与海 (The Old Man and the Sea)",
+    "link": "https://www.bilibili.com/video/BV1rA41117rS/",
+    "duration": "20分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "名著"
+    ],
+    "summary": "这部奥斯卡获奖的国外动画作品改编自海明威名著，讲述了一位老渔夫在茫茫大海中与巨鱼搏斗，彰显坚韧与勇气的动人故事。",
+    "reason": "独特的玻璃油画技法呈现流动的艺术之美，深刻传递出勇敢面对困难的力量。在坚持和成长中，独立前行。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 51,
+    "title": "小黄人短片：比赛 (Competition)",
+    "link": "https://www.bilibili.com/video/BV1At411C7j4/",
+    "duration": "4分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "照明娱乐"
+    ],
+    "summary": "知名海外动画小黄人短片，讲述两位小黄人为了将纸团投进垃圾桶，展开一场既紧张又充满趣味的比赛。",
+    "reason": "轻松幽默的方式呈现竞争中的友谊与成长。勇敢尝试、享受过程，共同分享快乐时光。",
+    "rating": 8.7,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 52,
+    "title": "功夫熊猫：盖世五侠的秘密",
+    "link": "https://www.bilibili.com/video/BV1Ug411R7AG/",
+    "duration": "24分钟",
+    "ageGroup": "5-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "梦工厂"
+    ],
+    "summary": "梦工厂出品的经典国外动画短片，讲述阿宝为兔子们揭示盖世五侠各自鲜为人知的成长秘密，展现他们从挫折到蜕变的励志历程。",
+    "reason": "温柔地讲述了成长中的坚持与勇气。追寻梦想，感受友谊与信任的真谛。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 53,
+    "title": "驯龙高手：骨碎龙传说",
+    "link": "https://www.bilibili.com/video/BV14a411c74D/",
+    "duration": "16分钟",
+    "ageGroup": "5-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "梦工厂"
+    ],
+    "summary": "梦工厂出品的经典国外动画《驯龙高手：骨碎龙传说》讲述了小嗝嗝和伙伴们在寻觅传说中的骨碎龙过程中，逐步揭开它真实善良本质的冒险故事。",
+    "reason": "在幽默与冒险中，感受友谊的温暖与成长的力量。勇敢面对未知，守护我们所爱的一切。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 54,
+    "title": "冰川时代：松鼠短片",
+    "link": "https://www.bilibili.com/video/BV1Xu411y7Aw/",
+    "duration": "5分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "蓝天工作室"
+    ],
+    "summary": "蓝天工作室出品的经典国外动画短片，讲述倒霉的松鼠奎特在追逐橡果过程中，无意中引发了一连串地质灾难的滑稽冒险。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 55,
+    "title": "商标的世界 (Logorama)",
+    "link": "https://www.bilibili.com/video/BV14W411f7mE/",
+    "duration": "16分钟",
+    "ageGroup": "10-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "创意"
+    ],
+    "summary": "奥斯卡获奖创意短片，构建了一个完全由商业Logo组成的世界，上演了一场米其林人大战麦当劳叔叔的警匪追逐大戏。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.5,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 56,
+    "title": "雇佣人生 (El Empleo)",
+    "link": "https://www.bilibili.com/video/BV1Fs411h7Y5/",
+    "duration": "7分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "国外动画短片",
+      "大师艺术短片",
+      "哲思"
+    ],
+    "summary": "阿根廷讽刺动画短片，描绘了一个人人都“物化”为工具的社会，引发对现代人工作与生活状态的深刻反思。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 57,
+    "title": "平衡 (Balance)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "8分钟",
+    "ageGroup": "10-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "哲思"
+    ],
+    "summary": "德国奥斯卡获奖短片，在一个悬浮的平台上，五个外貌相同的人为了保持平衡与争夺一个箱子，最终导致毁灭的寓言故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 58,
+    "title": "父与女 (Father and Daughter)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "8分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "亲情"
+    ],
+    "summary": "荷兰奥斯卡获奖短片，以极简的画风和悠扬的配乐，讲述了女儿一生等待与父亲重逢的感人故事，情感克制而深沉。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 59,
+    "title": "回忆积木小屋 (La Maison en Petits Cubes)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "12分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "治愈"
+    ],
+    "summary": "日本奥斯卡获奖短片，讲述了一位老人在不断上涨的海水中，通过一次次加盖房屋，回忆起与家人度过的美好时光。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 60,
+    "title": "如果世上不再有猫 (If Anything Happens I Love You)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "12分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "治愈"
+    ],
+    "summary": "一部关于校园枪击案幸存者父母的治愈短片，通过影子的形式回忆逝去的女儿，表达了无尽的思念与伤痛。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 61,
+    "title": "负空间 (Negative Space)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "5分钟",
+    "ageGroup": "10-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "亲情"
+    ],
+    "summary": "一部感人的定格动画，通过儿子回忆父亲教他如何整理行李箱，表达了对父亲深沉的爱与思念。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 62,
+    "title": "马语者 (The Horse Whisperer)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "9分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "国外动画短片",
+      "大师艺术短片",
+      "治愈"
+    ],
+    "summary": "一部温暖治愈的动画短片，讲述了一个小女孩如何用爱与耐心，帮助一匹受惊的马重新建立对人类的信任。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 63,
+    "title": "章鱼的爱情 (Oktapodi)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "2分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "搞笑"
+    ],
+    "summary": "一部紧张刺激又充满趣味的动画短片，讲述了一只章鱼为了拯救被抓走的女友，上演了一场惊心动魄的追逐战。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.7,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 64,
+    "title": "远在天边 (Lost and Found)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "24分钟",
+    "ageGroup": "4-9岁",
+    "category": [
+      "国外动画短片",
+      "绘本改编",
+      "友情"
+    ],
+    "summary": "根据同名绘本改编，讲述了一个小男孩和一只迷路的企鹅之间，从相遇到分离再到重逢的温暖故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 65,
+    "title": "神奇飞书 (The Fantastic Flying Books of Mr. Morris Lessmore)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "15分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "阅读"
+    ],
+    "summary": "一部致敬书籍与阅读的动画短片，讲述了爱书的莱斯莫先生在一个充满“活”书的图书馆里度过的奇妙一生。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 66,
+    "title": "兔耳袋狸 (Bilby)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "8分钟",
+    "ageGroup": "4-9岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "梦工厂"
+    ],
+    "summary": "梦工厂出品的暖心短片，讲述了一只胆小的兔耳袋狸在危机四伏的澳洲荒野中，勇敢保护一只毛茸茸小鸟的故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 67,
+    "title": "冲破天际 (To: Gerard)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "7分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "梦工厂"
+    ],
+    "summary": "梦工厂出品的温情短片，讲述了一位热爱魔术的邮政职员，用一枚硬币为一个热爱魔术的小女孩点亮了梦想。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 68,
+    "title": "蜗牛与鲸鱼 (The Snail and the Whale)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "27分钟",
+    "ageGroup": "3-6岁",
+    "category": [
+      "国外动画短片",
+      "绘本改编",
+      "冒险"
+    ],
+    "summary": "根据同名绘本改编，讲述了一只小蜗牛和一头大鲸鱼结伴环游世界的奇妙冒险，画面精美，故事温暖。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 69,
+    "title": "咕噜牛 (The Gruffalo)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "27分钟",
+    "ageGroup": "3-6岁",
+    "category": [
+      "国外动画短片",
+      "绘本改编",
+      "智慧"
+    ],
+    "summary": "根据同名绘本改编，讲述了一只聪明的小老鼠在森林里，通过虚构的可怕生物“咕噜牛”吓跑了天敌，最后却真的遇到了咕噜牛的故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 70,
+    "title": "女巫的扫帚 (Room on the Broom)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "25分钟",
+    "ageGroup": "3-6岁",
+    "category": [
+      "国外动画短片",
+      "绘本改编",
+      "友情"
+    ],
+    "summary": "根据同名绘本改编，讲述了一位善良的女巫在飞行途中，不断帮助小动物，最终在大家的帮助下战胜恶龙的故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 71,
+    "title": "光杆乐队 (One Man Band)",
+    "link": "https://www.bilibili.com/video/BV1ds411h7kR/",
+    "duration": "4分钟",
+    "ageGroup": "4-9岁",
+    "category": [
+      "国外动画短片",
+      "商业工作室经典",
+      "皮克斯"
+    ],
+    "summary": "皮克斯经典短片，讲述了两个街头艺人为了争夺一个小女孩的硬币而展开激烈竞争，最终却两手空空的故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 72,
+    "title": "鹬 (Piper)",
+    "link": "https://www.bilibili.com/video/BV1ux411P7Rt/",
+    "duration": "6分钟",
+    "ageGroup": "3-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "成长"
+    ],
+    "summary": "皮克斯奥斯卡获奖佳作。记录了一只恐水的小海鸟，在妈妈的引导下从畏惧海浪到勇敢探索，最终学会独立觅食的成长故事。",
+    "reason": "面对未知的恐惧，往往藏着成长的惊喜。那份尝试的勇气，是童年最闪亮的光芒。细腻真实的画面展现了成长的阵痛与喜悦。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 73,
+    "title": "月神 (La Luna)",
+    "link": "https://www.bilibili.com/video/BV18Z4y1a7i4/",
+    "duration": "7分钟",
+    "ageGroup": "4-12岁",
+    "category": [
+      "国外动画短片",
+      "奥斯卡/国际获奖",
+      "奇幻"
+    ],
+    "summary": "皮克斯奥斯卡提名短片，讲述祖孙三代在深夜划船登上月亮清理星星，小男孩在长辈的争执中找到属于自己工作方式的故事。",
+    "reason": "唯美梦幻的画面开启了对宇宙的浪漫想象。在传统的传承与个性的独立之间，找到了属于自己的方式去点亮心中的星空。",
+    "rating": 9.0,
     "platform": "Bilibili"
   },
   {
