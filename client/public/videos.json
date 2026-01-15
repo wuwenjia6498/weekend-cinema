@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "中国奇谭",
-    "link": "https://www.bilibili.com/bangumi/play/ss39707",
+    ""link": "https://www.bilibili.com/bangumi/media/md5849",
     "duration": "8集，每集20分钟",
     "ageGroup": "8-12岁",
     "category": [
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "title": "小蝌蚪找妈妈",
-    "link": "https://www.bilibili.com/video/BV13e41147ye",
+    "link": "https://www.bilibili.com/video/BV1xz4y1X7U3",
     "duration": "15分钟",
     "ageGroup": "3-6岁",
     "category": [
@@ -53,7 +53,7 @@
   {
     "id": 4,
     "title": "哪吒闹海",
-    "link": "https://www.bilibili.com/video/BV1op4y1v7Jh",
+    "link": "https://www.bilibili.com/video/BV148411d7EK",
     "duration": "65分钟",
     "ageGroup": "6-12岁",
     "category": [
@@ -87,7 +87,7 @@
   {
     "id": 6,
     "title": "牧笛",
-    "link": "https://www.bilibili.com/video/BV1f54y1q7Pn",
+    "link": "https://www.bilibili.com/video/BV185411W7rE",
     "duration": "20分钟",
     "ageGroup": "6-12岁",
     "category": [
@@ -104,7 +104,7 @@
   {
     "id": 7,
     "title": "山水情",
-    "link": "https://www.bilibili.com/video/BV1564y1S7rV",
+    "link": "https://www.bilibili.com/video/BV1hU4y197vy",
     "duration": "19分钟",
     "ageGroup": "8-12岁",
     "category": [
@@ -121,7 +121,7 @@
   {
     "id": 8,
     "title": "雪孩子",
-    "link": "https://www.bilibili.com/video/BV16s411h7m5",
+    "link": "https://www.bilibili.com/video/BV1Dw411D7ev",
     "duration": "20分钟",
     "ageGroup": "3-6岁",
     "category": [
@@ -138,7 +138,7 @@
   {
     "id": 9,
     "title": "九色鹿",
-    "link": "https://www.bilibili.com/video/BV1Hs411u7K9",
+    "link": "https://www.bilibili.com/video/BV1ch4y1D7Rj",
     "duration": "24分钟",
     "ageGroup": "5-9岁",
     "category": [
@@ -155,7 +155,7 @@
   {
     "id": 10,
     "title": "天书奇谭",
-    "link": "https://www.bilibili.com/video/BV1MW4y1t7n6",
+    "link": "https://www.bilibili.com/video/BV1rD4y1z78e",
     "duration": "89分钟",
     "ageGroup": "6-12岁",
     "category": [
@@ -307,6 +307,23 @@
   },
   {
     "id": 19,
+    "title": "崂山道士",
+    "link": "https://www.bilibili.com/video/BV15W4y1t72a",
+    "duration": "24分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "国内动画短片",
+      "经典中国学派",
+      "木偶",
+      "讽刺"
+    ],
+    "summary": "根据《聊斋志异》改编的木偶动画，讲述了王七去崂山学道，因心术不正最终一事无成的故事，讽刺了不劳而获的思想。",
+    "reason": "木偶戏的经典之作，动作流畅，表情生动。故事寓意深刻，讽刺了不劳而获的思想，教导孩子要脚踏实地，勤奋努力。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 20,
     "title": "中国唱诗班",
     "link": "https://www.bilibili.com/video/BV1Fm4y1C7JV",
     "duration": "6集，每集10分钟",
@@ -325,7 +342,7 @@
   {
     "id": 20,
     "title": "请吃红小豆吧！",
-    "link": "https://www.bilibili.com/bangumi/play/ss24971",
+    "link": "https://www.bilibili.com/bangumi/play/ss24467",
     "duration": "多季，每集3分钟",
     "ageGroup": "3-12岁",
     "category": [
@@ -342,7 +359,7 @@
   {
     "id": 21,
     "title": "如果历史是一群喵",
-    "link": "https://www.bilibili.com/video/BV1ZkW9zdEpL",
+    "link": "https://www.bilibili.com/bangumi/media/md129152",
     "duration": "多季，每集5分钟",
     "ageGroup": "6-12岁",
     "category": [
@@ -374,10 +391,9 @@
     "platform": "Bilibili"
   },
   {
-    "id": 23,
-    "title": "非人哉",
-    "link": "https://www.bilibili.com/bangumi/play/ss24298",
-    "duration": "多季，每集5分钟",
+    "id": 28,
+    "title": "汉化日记",
+    "link": "https://www.bilibili.com/bangumi/media/md4314622",    "duration": "多季，每集5分钟",
     "ageGroup": "12岁以上",
     "category": [
       "国内动画短片",
@@ -393,7 +409,7 @@
   {
     "id": 24,
     "title": "白鸟谷",
-    "link": "https://www.bilibili.com/bangumi/play/ss23835",
+    "link": "https://www.bilibili.com/video/BV1QW411G7aL",
     "duration": "15分钟",
     "ageGroup": "10岁以上",
     "category": [
@@ -408,9 +424,9 @@
     "platform": "Bilibili"
   },
   {
-    "id": 25,
-    "title": "雾山五行",
-    "link": "https://www.bilibili.com/bangumi/play/ss33323",
+    "id": 31,
+    "title": "大护法",
+    "link": "https://www.bilibili.com/video/BV1Jx411L7jZ/",,
     "duration": "3集，每集30分钟",
     "ageGroup": "12岁以上",
     "category": [
@@ -427,7 +443,7 @@
   {
     "id": 26,
     "title": "秋实",
-    "link": "https://www.bilibili.com/bangumi/play/ss39709",
+    "link": "https://www.bilibili.com/video/BV1Ax411k7Pj?p=5",
     "duration": "5分钟",
     "ageGroup": "6岁以上",
     "category": [
@@ -444,7 +460,7 @@
   {
     "id": 27,
     "title": "刺客伍六七",
-    "link": "https://www.bilibili.com/bangumi/play/ss23835",
+    "link": "https://www.bilibili.com/bangumi/media/md6360",
     "duration": "多季，每集15分钟",
     "ageGroup": "12岁以上",
     "category": [
@@ -477,8 +493,8 @@
   },
   {
     "id": 29,
-    "title": "大护法",
-    "link": "https://www.bilibili.com/bangumi/play/ep86866",
+    "title": "凸变英雄",
+    "link": "https://www.bilibili.com/bangumi/media/md5430",
     "duration": "90分钟",
     "ageGroup": "13岁以上",
     "category": [
@@ -528,7 +544,7 @@
   {
     "id": 33,
     "title": "月神 (La Luna)",
-    "link": "https://www.bilibili.com/video/BV1Wz4y1Z7m1",
+    "link": "https://www.bilibili.com/video/BV1BC4y1b7ZG/",
     "duration": "7分钟",
     "ageGroup": "4-12岁",
     "category": [
@@ -560,7 +576,7 @@
   {
     "id": 35,
     "title": "纸人 (Paperman)",
-    "link": "https://www.bilibili.com/video/BV1Rc411h7uU",
+    "link": "https://www.bilibili.com/video/BV15V4y1H7Sy/",
     "duration": "7分钟",
     "ageGroup": "6-12岁",
     "category": [
@@ -592,7 +608,7 @@
   {
     "id": 37,
     "title": "鸟！鸟！鸟！(For the Birds)",
-    "link": "https://www.bilibili.com/video/BV1hZ4y1T7MD",
+    "link": "https://www.bilibili.com/video/BV1n54y1q75n/",
     "duration": "3分钟",
     "ageGroup": "3-12岁",
     "category": [
@@ -608,7 +624,7 @@
   {
     "id": 38,
     "title": "棋逢对手 (Geri's Game)",
-    "link": "https://www.bilibili.com/video/BV1cx41187gy",
+    "link": "https://www.bilibili.com/video/BV1PF4m1E7Hd/",
     "duration": "5分钟",
     "ageGroup": "4-12岁",
     "category": [
@@ -624,7 +640,7 @@
   {
     "id": 39,
     "title": "魔术师和兔子 (Presto)",
-    "link": "https://www.bilibili.com/video/BV1kZ4y1M7cA",
+    "link": "https://www.bilibili.com/video/BV1eY4y1p7XZ/",
     "duration": "5分钟",
     "ageGroup": "3-12岁",
     "category": [
@@ -704,7 +720,7 @@
   {
     "id": 44,
     "title": "飘 (Float)",
-    "link": "https://www.bilibili.com/video/BV1hZ4y1T7MD",
+    "link": "https://www.bilibili.com/video/BV1hZ4y1T7MD/",
     "duration": "7分钟",
     "ageGroup": "4-12岁",
     "category": [
@@ -768,7 +784,7 @@
   {
     "id": 48,
     "title": "神奇飞书 (The Fantastic Flying Books)",
-    "link": "https://www.bilibili.com/video/BV1Wj421Q7NR",
+    "link": "https://www.bilibili.com/video/BV1KW411V7Ru/",
     "duration": "15分钟",
     "ageGroup": "5-12岁",
     "category": [
@@ -832,7 +848,7 @@
   {
     "id": 52,
     "title": "雨中曲 (Singin' in the Rain)",
-    "link": "https://www.bilibili.com/video/BV1Pi4y1s7Rx",
+    "link": "https://search.bilibili.com/all?keyword=Singin%27+in+the+Rain+animation",
     "duration": "4分钟",
     "ageGroup": "3-12岁",
     "category": [
@@ -848,7 +864,7 @@
   {
     "id": 53,
     "title": "小羊肖恩 (Shaun the Sheep)",
-    "link": "https://www.bilibili.com/video/BV1pX4y1w79o",
+    "link": "https://www.bilibili.com/bangumi/play/ss22924363",
     "duration": "7分钟",
     "ageGroup": "3-12岁",
     "category": [
@@ -928,7 +944,7 @@
   {
     "id": 58,
     "title": "爆笑虫子 (Larva)",
-    "link": "https://www.bilibili.com/video/BV1Xc43zvE81",
+    "link": "https://www.bilibili.com/video/BV1CV4y1m72Z",
     "duration": "2分钟",
     "ageGroup": "3-12岁",
     "category": [
@@ -957,10 +973,7 @@
     "rating": 9.0,
     "platform": "Bilibili"
   },
-  {
-    "id": 60,
-    "title": "父与子 (Father and Son)",
-    "link": "https://www.bilibili.com/video/BV15w411o7pk",
+      "id": 60,\n    "title": "父与子 (Father and Son)",\n    "link": "https://www.bilibili.com/video/BV1PE4wzAEd9",
     "duration": "3分钟",
     "ageGroup": "3-12岁",
     "category": [
