@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import html2canvas from "html2canvas";
 import { QRCodeSVG } from "qrcode.react";
 import { Button } from "@/components/ui/button";
@@ -43,6 +43,17 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
   const [isGenerating, setIsGenerating] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [generatedImage, setGeneratedImage] = useState<string | null>(null);
+
+  // 弹窗打开时自动生成海报
+  useEffect(() => {
+    if (isOpen && !generatedImage) {
+      // 延迟一点时间确保 DOM 渲染完成
+      const timer = setTimeout(() => {
+        generateImage();
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen]);
 
   const generateImage = async () => {
     if (!posterRef.current) return null;
@@ -212,7 +223,7 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
             </Button>
             {generatedImage && (
               <p className="text-white/80 text-xs text-center">
-                如果无法下载，请长按上方图片保存
+                如果无法下载，请长按或右键点击图片保存
               </p>
             )}
           </div>
