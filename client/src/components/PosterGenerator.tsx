@@ -38,6 +38,9 @@ const getCoverImage = (id: number) => {
     31: "/images/covers/31.png", // Piper
     32: "/images/covers/32.jpg", // La Luna
     33: "/images/covers/33.jpg", // Partly Cloudy
+    37: "/images/covers/37.png", // For the Birds
+    4: "/images/covers/4.jpg",   // 哪吒闹海
+    5: "/images/covers/5.jpg",   // 三个和尚
   };
 
   if (customCovers[id]) {
@@ -145,10 +148,15 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
             >
               {/* 封面图 - 增加高度占比至 55% */}
               <div className="relative h-[55%] w-full">
-                <img 
-                  src={coverImage} 
-                  alt={video.title}
-                  className="w-full h-full object-cover"
+                {/* 使用 background-image 替代 img 标签，解决 html2canvas 中 object-fit: cover 失效导致的变形问题 */}
+                <div 
+                  className="w-full h-full"
+                  style={{ 
+                    backgroundImage: `url(${coverImage})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat"
+                  }}
                 />
                 {/* 使用 style 强制指定 RGB 颜色，避免 Tailwind 4 的 oklab 格式 */}
                 <div 
@@ -160,14 +168,14 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
                     {video.category.slice(0, 2).map((tag) => (
                       <span 
                         key={tag} 
-                        className="px-3 h-7 text-sm font-medium rounded-full backdrop-blur-md flex items-center justify-center"
+                        className="px-3 h-7 text-sm font-medium rounded-full backdrop-blur-md inline-block text-center"
                         style={{ 
                           backgroundColor: "rgba(255,255,255,0.2)", 
                           borderColor: "rgba(255,255,255,0.1)",
                           borderWidth: "1px",
                           borderStyle: "solid",
-                          lineHeight: "1",
-                          paddingTop: "2px" // 微调垂直对齐
+                          lineHeight: "26px", // 明确设置行高 = 高度 - 边框 (28px - 2px)
+                          verticalAlign: "middle"
                         }}
                       >
                         {tag}
