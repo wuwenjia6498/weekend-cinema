@@ -141,9 +141,11 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
               <div className="flex items-end justify-between pt-5 border-t border-slate-100">
                 <div>
                   <div className="flex items-center gap-2.5 mb-1">
-                    <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-xl shadow-sm">
-                      W
-                    </div>
+                    <img 
+                      src="/images/logo.jpg" 
+                      alt="Logo" 
+                      className="w-9 h-9 rounded-full shadow-sm object-cover"
+                    />
                     <span className="font-bold text-slate-900 text-lg tracking-tight">周末放映室</span>
                   </div>
                   <p className="text-sm text-slate-500 font-medium">精选优质儿童动画短片</p>
