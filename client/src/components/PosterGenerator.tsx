@@ -9,8 +9,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Download, Share2, Loader2 } from "lucide-react";
+import { Download, Share2, Loader2, Check } from "lucide-react";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
 interface Video {
@@ -41,9 +42,10 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
   const posterRef = useRef<HTMLDivElement>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [generatedImage, setGeneratedImage] = useState<string | null>(null);
 
-  const handleDownload = async () => {
-    if (!posterRef.current) return;
+  const generateImage = async () => {
+    if (!posterRef.current) return null;
 
     try {
       setIsGenerating(true);
@@ -64,15 +66,29 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
         backgroundColor: "#ffffff",
       });
 
-      const link = document.createElement("a");
-      link.download = `周末放映室-${video.title}.png`;
-      link.href = canvas.toDataURL("image/png");
-      link.click();
+      const dataUrl = canvas.toDataURL("image/png");
+      setGeneratedImage(dataUrl);
+      return dataUrl;
     } catch (error) {
       console.error("生成海报失败:", error);
+      toast.error("生成海报失败，请重试");
+      return null;
     } finally {
       setIsGenerating(false);
     }
+  };
+
+  const handleDownload = async () => {
+    const dataUrl = generatedImage || await generateImage();
+    if (!dataUrl) return;
+
+    const link = document.createElement("a");
+    link.download = `周末放映室-${video.title}.png`;
+    link.href = dataUrl;
+    link.click();
+    toast.success("海报已保存", {
+      description: "如果未自动下载，请长按图片保存",
+    });
   };
 
   const coverImage = getCoverImage(video.id);
@@ -88,99 +104,118 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
           </Button>
         )}
       </DialogTrigger>
-      <DialogContent className="max-w-md p-0 overflow-hidden bg-transparent border-none shadow-none">
+      <DialogContent className="max-w-md w-[90vw] p-0 overflow-hidden bg-transparent border-none shadow-none">
         <VisuallyHidden>
           <DialogTitle>生成海报 - {video.title}</DialogTitle>
         </VisuallyHidden>
         <div className="flex flex-col items-center gap-4">
           {/* 海报预览区域 */}
-          <div 
-            ref={posterRef}
-            className="w-full bg-white rounded-xl overflow-hidden shadow-2xl"
-            style={{ aspectRatio: "3/5" }}
-          >
-            {/* 封面图 - 增加高度占比至 55% */}
-            <div className="relative h-[55%] w-full">
-              <img 
-                src={coverImage} 
-                alt={video.title}
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-              <div className="absolute bottom-5 left-6 right-6 text-white">
-                <div className="flex gap-2 mb-3">
-                  {video.category.slice(0, 2).map((tag) => (
-                    <span key={tag} className="px-2.5 py-0.5 text-sm font-medium bg-white/20 backdrop-blur-md rounded-full border border-white/10">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                <h2 className="text-3xl font-bold tracking-tight leading-tight drop-shadow-sm">{video.title}</h2>
-              </div>
-            </div>
-
-            {/* 内容区域 - 减少高度占比至 45% */}
-            <div className="p-6 h-[45%] flex flex-col justify-between bg-gradient-to-b from-white to-slate-50">
-              <div className="space-y-5 overflow-hidden">
-                <div>
-                  <h3 className="text-xs font-bold text-primary mb-1.5 uppercase tracking-wider opacity-80">视频介绍</h3>
-                  <p className="text-slate-700 text-sm leading-relaxed line-clamp-3 font-medium">
-                    {video.summary}
-                  </p>
-                </div>
-                
-                <div className="relative pl-4 border-l-[3px] border-primary/30">
-                  <h3 className="text-xs font-bold text-primary mb-1.5 uppercase tracking-wider opacity-80">推荐理由</h3>
-                  <p className="text-slate-800 text-base font-serif italic leading-relaxed line-clamp-3">
-                    "{video.reason}"
-                  </p>
-                </div>
-              </div>
-
-              {/* 底部信息 */}
-              <div className="flex items-end justify-between pt-5 border-t border-slate-100">
-                <div>
-                  <div className="flex items-center gap-2.5 mb-1">
-                    <img 
-                      src="/images/logo.jpg" 
-                      alt="Logo" 
-                      className="w-9 h-9 rounded-full shadow-sm object-cover"
-                    />
-                    <span className="font-bold text-slate-900 text-lg tracking-tight">周末放映室</span>
+          <div className="relative w-full rounded-xl overflow-hidden shadow-2xl">
+            {/* 实际渲染的 DOM，生成图片后隐藏 */}
+            <div 
+              ref={posterRef}
+              className={cn("w-full bg-white", generatedImage ? "absolute top-0 left-0 -z-10 opacity-0" : "")}
+              style={{ aspectRatio: "3/5" }}
+            >
+              {/* 封面图 - 增加高度占比至 55% */}
+              <div className="relative h-[55%] w-full">
+                <img 
+                  src={coverImage} 
+                  alt={video.title}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="absolute bottom-5 left-6 right-6 text-white">
+                  <div className="flex gap-2 mb-3">
+                    {video.category.slice(0, 2).map((tag) => (
+                      <span key={tag} className="px-2.5 py-0.5 text-sm font-medium bg-white/20 backdrop-blur-md rounded-full border border-white/10">
+                        {tag}
+                      </span>
+                    ))}
                   </div>
-                  <p className="text-sm text-slate-500 font-medium">精选优质儿童动画短片</p>
+                  <h2 className="text-3xl font-bold tracking-tight leading-tight drop-shadow-sm">{video.title}</h2>
                 </div>
-                <div className="bg-white p-2 rounded-xl shadow-sm border border-slate-100">
-                  <QRCodeSVG 
-                    value={shareUrl}
-                    size={72}
-                    level="M"
-                    fgColor="#1e293b"
-                  />
+              </div>
+
+              {/* 内容区域 - 减少高度占比至 45% */}
+              <div className="p-6 h-[45%] flex flex-col justify-between bg-gradient-to-b from-white to-slate-50">
+                <div className="space-y-5 overflow-hidden">
+                  <div>
+                    <h3 className="text-xs font-bold text-primary mb-1.5 uppercase tracking-wider opacity-80">视频介绍</h3>
+                    <p className="text-slate-700 text-sm leading-relaxed line-clamp-3 font-medium">
+                      {video.summary}
+                    </p>
+                  </div>
+                  
+                  <div className="relative pl-4 border-l-[3px] border-primary/30">
+                    <h3 className="text-xs font-bold text-primary mb-1.5 uppercase tracking-wider opacity-80">推荐理由</h3>
+                    <p className="text-slate-800 text-base font-serif italic leading-relaxed line-clamp-3">
+                      "{video.reason}"
+                    </p>
+                  </div>
+                </div>
+
+                {/* 底部信息 */}
+                <div className="flex items-end justify-between pt-5 border-t border-slate-100">
+                  <div>
+                    <div className="flex items-center gap-2.5 mb-1">
+                      <img 
+                        src="/images/logo.jpg" 
+                        alt="Logo" 
+                        className="w-9 h-9 rounded-full shadow-sm object-cover"
+                      />
+                      <span className="font-bold text-slate-900 text-lg tracking-tight">周末放映室</span>
+                    </div>
+                    <p className="text-sm text-slate-500 font-medium">精选优质儿童动画短片</p>
+                  </div>
+                  <div className="bg-white p-2 rounded-xl shadow-sm border border-slate-100">
+                    <QRCodeSVG 
+                      value={shareUrl}
+                      size={72}
+                      level="M"
+                      fgColor="#1e293b"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
+
+            {/* 生成后的图片展示，支持长按保存 */}
+            {generatedImage && (
+              <img 
+                src={generatedImage} 
+                alt="生成的海报" 
+                className="w-full h-full object-contain"
+              />
+            )}
           </div>
 
           {/* 操作按钮 */}
-          <Button 
-            onClick={handleDownload} 
-            disabled={isGenerating}
-            className="w-full max-w-xs shadow-lg hover:shadow-xl transition-all"
-            size="lg"
-          >
-            {isGenerating ? (
-              <>
-                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                正在生成...
-              </>
-            ) : (
-              <>
-                <Download className="w-4 h-4 mr-2" />
-                保存海报
-              </>
+          <div className="flex flex-col items-center gap-2 w-full">
+            <Button 
+              onClick={handleDownload} 
+              disabled={isGenerating}
+              className="w-full max-w-xs shadow-lg hover:shadow-xl transition-all"
+              size="lg"
+            >
+              {isGenerating ? (
+                <>
+                  <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                  正在生成...
+                </>
+              ) : (
+                <>
+                  <Download className="w-4 h-4 mr-2" />
+                  {generatedImage ? "保存图片" : "生成海报"}
+                </>
+              )}
+            </Button>
+            {generatedImage && (
+              <p className="text-white/80 text-xs text-center">
+                如果无法下载，请长按上方图片保存
+              </p>
             )}
-          </Button>
+          </div>
         </div>
       </DialogContent>
     </Dialog>
