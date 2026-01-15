@@ -17,6 +17,7 @@ interface Video {
   title: string;
   category: string[];
   reason: string;
+  summary: string;
   link: string;
 }
 
@@ -74,7 +75,7 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
   };
 
   const coverImage = getCoverImage(video.id);
-  const shareUrl = window.location.href;
+  const shareUrl = video.link;
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -116,11 +117,18 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
 
             {/* 内容区域 */}
             <div className="p-6 h-1/2 flex flex-col justify-between bg-gradient-to-b from-white to-slate-50">
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <span className="text-4xl text-primary/20 font-serif">"</span>
-                  <p className="text-slate-600 leading-relaxed text-sm font-medium italic pt-2">
-                    {video.reason}
+              <div className="space-y-4 overflow-hidden">
+                <div>
+                  <h3 className="text-xs font-bold text-primary mb-1 uppercase tracking-wider">视频介绍</h3>
+                  <p className="text-slate-600 text-xs leading-relaxed line-clamp-3">
+                    {video.summary}
+                  </p>
+                </div>
+                
+                <div className="relative pl-3 border-l-2 border-primary/20">
+                  <h3 className="text-xs font-bold text-primary mb-1 uppercase tracking-wider">推荐理由</h3>
+                  <p className="text-slate-700 text-sm font-medium italic leading-relaxed line-clamp-4">
+                    "{video.reason}"
                   </p>
                 </div>
               </div>

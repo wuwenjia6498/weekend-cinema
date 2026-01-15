@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Search, Play, Clock, Users, Star, Globe, MapPin, Film, Award, Sparkles } from "lucide-react";
+import { Search, Play, Clock, Users, Star, Globe, MapPin, Film, Award, Sparkles, Copy, Check } from "lucide-react";
 import { PosterGenerator } from "@/components/PosterGenerator";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -32,8 +32,16 @@ export default function Home() {
     fetch('/videos.json')
       .then(res => res.json())
       .then(data => {
-        setVideos(data);
-        setFilteredVideos(data);
+        // Sort videos: Foreign first, then Domestic
+        const sortedData = data.sort((a: Video, b: Video) => {
+          const isForeignA = a.category.includes("国外动画短片");
+          const isForeignB = b.category.includes("国外动画短片");
+          if (isForeignA && !isForeignB) return -1;
+          if (!isForeignA && isForeignB) return 1;
+          return 0;
+        });
+        setVideos(sortedData);
+        setFilteredVideos(sortedData);
       })
       .catch(err => console.error('Failed to load videos:', err));
   }, []);
@@ -86,6 +94,20 @@ export default function Home() {
   }, [activeTab]);
 
   const VideoGrid = ({ items }: { items: Video[] }) => {
+    const [copiedId, setCopiedId] = useState<number | null>(null);
+
+    const handleCopy = (video: Video) => {
+      const text = `🎬 推荐观看：《${video.title}》\n\n📝 视频介绍：\n${video.summary}\n\n🌟 推荐理由：\n${video.reason}\n\n📺 观看链接：${video.link}\n\n👉 来自「周末放映室」的精选推荐`;
+      
+      navigator.clipboard.writeText(text).then(() => {
+        setCopiedId(video.id);
+        toast.success("推荐语已复制到剪贴板");
+        setTimeout(() => setCopiedId(null), 2000);
+      }).catch(() => {
+        toast.error("复制失败，请重试");
+      });
+    };
+
     return (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {items.map((video) => (
@@ -136,8 +158,27 @@ export default function Home() {
                 ))}
               </div>
             </CardContent>
-            <CardFooter className="pt-4 border-t border-border/50 bg-muted/30 grid grid-cols-2 gap-3">
-              <PosterGenerator video={video} />
+            <CardFooter className="pt-4 border-t border-border/50 bg-muted/30 flex flex-col gap-3">
+              <div className="grid grid-cols-2 gap-3 w-full">
+                <PosterGenerator video={video} />
+                <Button 
+                  variant="outline" 
+                  className="w-full gap-2 bg-white hover:bg-gray-50"
+                  onClick={() => handleCopy(video)}
+                >
+                  {copiedId === video.id ? (
+                    <>
+                      <Check className="w-4 h-4 text-green-600" />
+                      <span className="text-green-600">已复制</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="w-4 h-4" />
+                      复制推荐
+                    </>
+                  )}
+                </Button>
+              </div>
               <Button className="w-full gap-2 shadow-sm hover:shadow-md transition-all" asChild>
                 <a href={video.link} target="_blank" rel="noopener noreferrer">
                   <Play className="w-4 h-4 fill-current" />
