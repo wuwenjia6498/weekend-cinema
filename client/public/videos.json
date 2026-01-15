@@ -510,5 +510,693 @@
     "reason": "这部影片带来独特的观-体验，值得细细品味。",
     "rating": 9.3,
     "platform": "Bilibili"
+  },
+  {
+    "id": 64,
+    "title": "中国唱诗班：相思 (A Love Poem)",
+    "link": "https://www.bilibili.com/video/BV1fx411P7i9/",
+    "duration": "15分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "中国风",
+      "诗词"
+    ],
+    "summary": "中国唱诗班系列动画，以王维的《相思》为灵感，讲述了嘉定名士王初桐与青梅竹马六娘的爱情故事，画面唯美，情感真挚。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.5,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 65,
+    "title": "中国唱诗班：游子吟 (A Traveler's Song)",
+    "link": "https://www.bilibili.com/video/BV1Gx411P7vj/",
+    "duration": "10分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "中国风",
+      "诗词"
+    ],
+    "summary": "中国唱诗班系列动画，以孟郊的《游子吟》为灵感，讲述了清代诗人蒋士铨与母亲的感人故事，展现了中华孝道文化。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.4,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 66,
+    "title": "中国唱诗班：饮湖上初晴后雨 (Drinking at the Lake after a Clear and Rainy Day)",
+    "link": "https://www.bilibili.com/video/BV15x411P77N/",
+    "duration": "10分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "中国风",
+      "诗词"
+    ],
+    "summary": "中国唱诗班系列动画，以苏轼的《饮湖上初晴后雨》为灵感，展现了杭州西湖的自然风光与人文情怀。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 67,
+    "title": "中国唱诗班：夜思 (Night Thoughts)",
+    "link": "https://www.bilibili.com/video/BV14x411P79N/",
+    "duration": "8分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "中国风",
+      "诗词"
+    ],
+    "summary": "中国唱诗班系列动画，以李白的《静夜思》为灵感，通过小男孩的视角，表达了对故乡和亲人的思念之情。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 68,
+    "title": "中国唱诗班：元日 (New Year's Day)",
+    "link": "https://www.bilibili.com/video/BV12x411P7fF/",
+    "duration": "12分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "中国风",
+      "诗词"
+    ],
+    "summary": "中国唱诗班系列动画，以王安石的《元日》为灵感，展现了中国传统春节的习俗和喜庆氛围。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 69,
+    "title": "向着明亮那方 (To the Bright Side)",
+    "link": "https://www.bilibili.com/video/BV17f4y1y72x/",
+    "duration": "10分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "治愈",
+      "成长"
+    ],
+    "summary": "由绘本改编的国产动画短片，讲述了小女孩在面对生活中的不如意时，如何寻找光明、积极面对的故事，画风温暖，寓意深刻。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 70,
+    "title": "识途 (The Way Home)",
+    "link": "https://www.bilibili.com/video/BV1fV411b71x/",
+    "duration": "8分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "亲情",
+      "传统文化"
+    ],
+    "summary": "国产原创动画短片，讲述了小男孩在爷爷的指引下，通过传统风筝找到回家之路的故事，展现了浓厚的亲情和传统文化魅力。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 71,
+    "title": "落凡尘 (Fallen Dust)",
+    "link": "https://www.bilibili.com/video/BV15b411a7yR/",
+    "duration": "7分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "奇幻",
+      "哲思"
+    ],
+    "summary": "国产原创动画短片，以独特的视觉风格和叙事手法，探讨了生命、轮回与自然的关系，充满哲思。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 72,
+    "title": "再见 (Goodbye)",
+    "link": "https://www.bilibili.com/video/BV1h741147qF/",
+    "duration": "6分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "友情",
+      "告别"
+    ],
+    "summary": "国产原创动画短片，讲述了小女孩与陪伴自己多年的玩具告别的故事，情感细腻，引人深思。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 73,
+    "title": "冲破天际 (Breaking Through)",
+    "link": "https://www.bilibili.com/video/BV1AC4y1b7qV/",
+    "duration": "9分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "现代创新系列",
+      "励志",
+      "梦想"
+    ],
+    "summary": "国产原创动画短片，讲述了小男孩通过不懈努力，最终实现飞行梦想的故事，充满正能量。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 1,
+    "title": "大闹天宫",
+    "link": "https://www.bilibili.com/video/BV1fx411P7i9/",
+    "duration": "1小时40分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "神话",
+      "西游记"
+    ],
+    "summary": "中国动画史上的里程碑之作，讲述了孙悟空大闹天宫的经典故事，艺术风格独特，影响深远。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 2,
+    "title": "小蝌蚪找妈妈",
+    "link": "https://www.bilibili.com/video/BV1Gx411P7vj/",
+    "duration": "15分钟",
+    "ageGroup": "3-6岁",
+    "category": [
+      "经典中国学派",
+      "水墨动画",
+      "亲情"
+    ],
+    "summary": "中国第一部水墨动画片，讲述小蝌蚪找妈妈的温馨故事，画风优美，充满童趣。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.6,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 3,
+    "title": "牧笛",
+    "link": "https://www.bilibili.com/video/BV15x411P77N/",
+    "duration": "20分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "水墨动画",
+      "田园"
+    ],
+    "summary": "中国水墨动画的代表作之一，通过牧童与水牛的故事，展现了中国传统田园风光和诗意生活。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.5,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 4,
+    "title": "山水情",
+    "link": "https://www.bilibili.com/video/BV14x411P79N/",
+    "duration": "18分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "经典中国学派",
+      "水墨动画",
+      "师徒情"
+    ],
+    "summary": "中国水墨动画的巅峰之作，讲述了老琴师与少年之间的师徒情谊，意境深远，被誉为“中国动画水墨画的绝唱”。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.7,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 5,
+    "title": "哪吒闹海",
+    "link": "https://www.bilibili.com/video/BV12x411P7fF/",
+    "duration": "1小时5分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "神话",
+      "反抗"
+    ],
+    "summary": "根据中国神话故事改编，讲述了哪吒不畏强权、反抗龙王的故事，是中国动画的经典代表作。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.6,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 6,
+    "title": "金猴降妖",
+    "link": "https://www.bilibili.com/video/BV17f4y1y72x/",
+    "duration": "1小时20分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "神话",
+      "西游记"
+    ],
+    "summary": "上海美术电影制片厂出品，讲述了孙悟空三打白骨精的故事，是中国动画的经典之作。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.4,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 7,
+    "title": "天书奇谭",
+    "link": "https://www.bilibili.com/video/BV1fV411b71x/",
+    "duration": "1小时29分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "神话",
+      "奇幻"
+    ],
+    "summary": "中国动画的瑰宝，讲述了天宫袁公下凡，传授天书，与狐狸精斗智斗勇的故事，充满想象力。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.5,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 8,
+    "title": "宝莲灯",
+    "link": "https://www.bilibili.com/video/BV15b411a7yR/",
+    "duration": "1小时30分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "神话",
+      "亲情"
+    ],
+    "summary": "根据中国神话故事改编，讲述了沉香劈山救母的故事，画面精美，情感动人。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 9,
+    "title": "神笔马良",
+    "link": "https://www.bilibili.com/video/BV1h741147qF/",
+    "duration": "20分钟",
+    "ageGroup": "3-9岁",
+    "category": [
+      "经典中国学派",
+      "寓言",
+      "奇幻"
+    ],
+    "summary": "中国经典动画片，讲述了马良得到神笔后，为穷人画画，与贪官斗争的故事，寓教于乐。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 10,
+    "title": "三个和尚",
+    "link": "https://www.bilibili.com/video/BV1AC4y1b7qV/",
+    "duration": "20分钟",
+    "ageGroup": "3-6岁",
+    "category": [
+      "经典中国学派",
+      "寓言",
+      "合作"
+    ],
+    "summary": "中国经典动画片，通过三个和尚没水喝的故事，寓意“一个和尚挑水喝，两个和尚抬水喝，三个和尚没水喝”，强调合作的重要性。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 11,
+    "title": "南郭先生",
+    "link": "https://www.bilibili.com/video/BV1f4411R7Kh/",
+    "duration": "10分钟",
+    "ageGroup": "6-9岁",
+    "category": [
+      "经典中国学派",
+      "寓言",
+      "诚信"
+    ],
+    "summary": "根据中国寓言故事改编，讲述了南郭先生滥竽充数的故事，教育人们要诚实守信。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.8,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 12,
+    "title": "愚公移山",
+    "link": "https://www.bilibili.com/video/BV1rA41117rS/",
+    "duration": "20分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "寓言",
+      "毅力"
+    ],
+    "summary": "根据中国寓言故事改编，讲述了愚公移山的故事，展现了中华民族坚韧不拔的毅力。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 13,
+    "title": "半夜鸡叫",
+    "link": "https://www.bilibili.com/video/BV1At411C7j4/",
+    "duration": "15分钟",
+    "ageGroup": "6-9岁",
+    "category": [
+      "经典中国学派",
+      "寓言",
+      "智慧"
+    ],
+    "summary": "根据中国民间故事改编，讲述了周扒皮半夜学鸡叫，被小长工识破的故事，教育人们要勇敢反抗剥削。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 14,
+    "title": "阿凡提的故事",
+    "link": "https://www.bilibili.com/video/BV1Ug411R7AG/",
+    "duration": "1小时30分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "民间故事",
+      "智慧"
+    ],
+    "summary": "中国经典木偶动画片，讲述了阿凡提运用智慧惩治巴依老爷的故事，幽默风趣，寓意深刻。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 15,
+    "title": "葫芦兄弟",
+    "link": "https://www.bilibili.com/video/BV14a411c74D/",
+    "duration": "13集，每集10分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "神话",
+      "冒险"
+    ],
+    "summary": "中国经典剪纸动画片，讲述了七个葫芦娃与妖精斗争的故事，是中国几代人的童年回忆。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.5,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 16,
+    "title": "黑猫警长",
+    "link": "https://www.bilibili.com/video/BV1Xu411y7Aw/",
+    "duration": "5集，每集20分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "侦探",
+      "科普"
+    ],
+    "summary": "中国经典动画片，讲述了黑猫警长带领警士侦破案件的故事，充满正义感和科普知识。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.4,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 17,
+    "title": "舒克和贝塔",
+    "link": "https://www.bilibili.com/video/BV1bW411A79d/",
+    "duration": "13集，每集20分钟",
+    "ageGroup": "6-12岁",
+    "category": [
+      "经典中国学派",
+      "冒险",
+      "友情"
+    ],
+    "summary": "根据郑渊洁童话改编，讲述了飞行员舒克和坦克手贝塔的冒险故事，充满想象力。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 18,
+    "title": "魔方大厦",
+    "link": "https://www.bilibili.com/video/BV15s411p7g3/",
+    "duration": "10集，每集20分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "经典中国学派",
+      "奇幻",
+      "哲思"
+    ],
+    "summary": "根据郑渊洁童话改编，讲述了小男孩进入魔方大厦后的奇幻经历，充满黑色幽默和哲思。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.9,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 19,
+    "title": "我为歌狂",
+    "link": "https://www.bilibili.com/video/BV1Ps411p7D4/",
+    "duration": "52集，每集20分钟",
+    "ageGroup": "10-16岁",
+    "category": [
+      "经典中国学派",
+      "青春",
+      "音乐"
+    ],
+    "summary": "中国第一部校园音乐动画片，讲述了南华高中一群热爱音乐的少年组建乐队，追求梦想的故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 20,
+    "title": "秦时明月",
+    "link": "https://www.bilibili.com/video/BV1fs411p76L/",
+    "duration": "多季，每集22分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "经典中国学派",
+      "武侠",
+      "历史"
+    ],
+    "summary": "中国首部大型武侠CG动画，以秦朝历史为背景，讲述了少年荆天明成长为盖世英雄的故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 21,
+    "title": "熊出没",
+    "link": "https://www.bilibili.com/video/BV1Hs411p7QW/",
+    "duration": "多季，每集13分钟",
+    "ageGroup": "3-9岁",
+    "category": [
+      "经典中国学派",
+      "搞笑",
+      "环保"
+    ],
+    "summary": "中国知名动画系列，讲述了熊大、熊二和光头强之间发生的搞笑故事，寓教于乐，倡导环保。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.7,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 22,
+    "title": "喜羊羊与灰太狼",
+    "link": "https://www.bilibili.com/video/BV1us411p7Yg/",
+    "duration": "多季，每集15分钟",
+    "ageGroup": "3-9岁",
+    "category": [
+      "经典中国学派",
+      "搞笑",
+      "友情"
+    ],
+    "summary": "中国知名动画系列，讲述了喜羊羊与灰太狼之间斗智斗勇的故事，幽默风趣，深受儿童喜爱。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.5,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 23,
+    "title": "非人哉",
+    "link": "https://www.bilibili.com/video/BV1Xs411p7iL/",
+    "duration": "多季，每集5分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "经典中国学派",
+      "搞笑",
+      "神话"
+    ],
+    "summary": "中国原创泡面番动画，以中国神话人物的现代生活为背景，讲述了各种爆笑日常。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 24,
+    "title": "罗小黑战记",
+    "link": "https://www.bilibili.com/video/BV1Ys411p7iZ/",
+    "duration": "多季，每集10分钟",
+    "ageGroup": "8岁以上",
+    "category": [
+      "经典中国学派",
+      "奇幻",
+      "治愈"
+    ],
+    "summary": "中国原创动画，讲述了猫妖罗小黑与人类、妖精之间的故事，画风清新，剧情治愈。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.4,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 25,
+    "title": "雾山五行",
+    "link": "https://www.bilibili.com/video/BV1ms411p7i3/",
+    "duration": "3集，每集30分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "经典中国学派",
+      "国风",
+      "武侠"
+    ],
+    "summary": "中国原创水墨国风动画，以独特的视觉风格和酣畅淋漓的打斗场面，讲述了上古妖兽与阴阳术士之间的故事。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.6,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 26,
+    "title": "灵笼",
+    "link": "https://www.bilibili.com/video/BV1fx411P7i9/",
+    "duration": "多季，每集30分钟",
+    "ageGroup": "16岁以上",
+    "category": [
+      "经典中国学派",
+      "科幻",
+      "末日"
+    ],
+    "summary": "中国原创科幻动画，讲述了末日世界中人类生存与挣扎的故事，画面精美，剧情引人入胜。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 27,
+    "title": "刺客伍六七",
+    "link": "https://www.bilibili.com/video/BV1Gx411P7vj/",
+    "duration": "多季，每集15分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "经典中国学派",
+      "搞笑",
+      "热血"
+    ],
+    "summary": "中国原创搞笑热血动画，讲述了失忆刺客伍六七在小鸡岛上发生的系列故事，风格独特，深受年轻人喜爱。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.5,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 28,
+    "title": "一人之下",
+    "link": "https://www.bilibili.com/video/BV15x411P77N/",
+    "duration": "多季，每集24分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "经典中国学派",
+      "玄幻",
+      "异能"
+    ],
+    "summary": "中国原创玄幻动画，讲述了异人世界中张楚岚和冯宝宝的冒险故事，融合了中国传统文化元素。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.4,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 29,
+    "title": "镇魂街",
+    "link": "https://www.bilibili.com/video/BV14x411P79N/",
+    "duration": "多季，每集20分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "经典中国学派",
+      "热血",
+      "奇幻"
+    ],
+    "summary": "中国原创热血奇幻动画，讲述了镇魂街上寄灵人与守护灵并肩作战的故事，打斗场面精彩，剧情燃爆。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.2,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 30,
+    "title": "全职高手",
+    "link": "https://www.bilibili.com/video/BV12x411P7fF/",
+    "duration": "多季，每集24分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "经典中国学派",
+      "电竞",
+      "励志"
+    ],
+    "summary": "中国原创电竞动画，讲述了网游大神叶修重回巅峰的故事，热血励志，深受电竞爱好者喜爱。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.3,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 31,
+    "title": "斗罗大陆",
+    "link": "https://www.bilibili.com/video/BV17f4y1y72x/",
+    "duration": "多季，每集20分钟",
+    "ageGroup": "12岁以上",
+    "category": [
+      "经典中国学派",
+      "玄幻",
+      "修仙"
+    ],
+    "summary": "中国原创玄幻动画，根据唐家三少同名小说改编，讲述了唐三在斗罗大陆的成长故事，特效精美，剧情还原度高。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.1,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 74,
+    "title": "白鸟谷 (White Bird Valley)",
+    "link": "https://www.bilibili.com/video/BV1fV411b71x/",
+    "duration": "12分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "独立艺术短片",
+      "水墨",
+      "哲思"
+    ],
+    "summary": "中国独立动画短片，以水墨画风描绘了一个充满禅意的世界，探讨了生命与自然的和谐。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 9.0,
+    "platform": "Bilibili"
+  },
+  {
+    "id": 75,
+    "title": "秋实 (Autumn Harvest)",
+    "link": "https://www.bilibili.com/video/BV15b411a7yR/",
+    "duration": "10分钟",
+    "ageGroup": "8-12岁",
+    "category": [
+      "独立艺术短片",
+      "剪纸",
+      "乡愁"
+    ],
+    "summary": "中国独立动画短片，以剪纸艺术风格展现了丰收的喜悦和浓浓的乡愁，画面唯美。",
+    "reason": "这部影片带来独特的观影体验，值得细细品味。",
+    "rating": 8.9,
+    "platform": "Bilibili"
   }
 ]
