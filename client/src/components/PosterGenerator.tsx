@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
-  DialogHeader,
+  DialogClose,
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Download, Share2, Loader2, Check } from "lucide-react";
+import { Download, Share2, Loader2, X } from "lucide-react";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
@@ -107,7 +107,7 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
 
     try {
       setIsGenerating(true);
-      
+
       // 等待图片加载完成
       const images = posterRef.current.getElementsByTagName('img');
       await Promise.all(Array.from(images).map(img => {
@@ -162,48 +162,72 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
           </Button>
         )}
       </DialogTrigger>
-      <DialogContent className="max-w-md w-[90vw] p-0 overflow-hidden bg-transparent border-none shadow-none">
+
+      <DialogContent
+        className="p-0 border-none bg-transparent shadow-none overflow-auto flex items-start justify-center"
+        style={{
+          maxWidth: "95vw",
+          maxHeight: "100vh",
+          width: "auto",
+          height: "auto"
+        }}
+        showCloseButton={false}
+      >
         <VisuallyHidden>
           <DialogTitle>生成海报 - {video.title}</DialogTitle>
         </VisuallyHidden>
-        <div className="flex flex-col items-center gap-4">
-          {/* 海报预览区域 */}
-          <div className="relative w-full rounded-xl overflow-hidden shadow-2xl">
+
+        {/* 主容器 - 使用 flex 布局垂直排列 */}
+        <div className="flex flex-col items-center gap-4 py-6 px-4 w-full">
+          {/* 关闭按钮 */}
+          <DialogClose className="self-end p-2 rounded-full bg-white/20 hover:bg-white/30 text-white transition-colors">
+            <X className="w-5 h-5" />
+            <span className="sr-only">关闭</span>
+          </DialogClose>
+
+          {/* 海报容器 - 进一步加高比例 */}
+          <div
+            className="flex-shrink-0 rounded-xl overflow-hidden shadow-2xl bg-white"
+            style={{
+              maxHeight: "calc(100vh - 200px)",
+              height: "auto",
+              aspectRatio: "3 / 6",
+              width: "auto",
+              maxWidth: "90vw"
+            }}
+          >
             {/* 实际渲染的 DOM，生成图片后隐藏 */}
-            <div 
+            <div
               ref={posterRef}
-              className={cn("w-full bg-white", generatedImage ? "absolute top-0 left-0 -z-10 opacity-0" : "")}
-              style={{ aspectRatio: "3/5" }}
+              className={cn("w-full h-full bg-white", generatedImage && "hidden")}
             >
-              {/* 封面图 - 增加高度占比至 55% */}
-              <div className="relative h-[55%] w-full">
-                {/* 使用 background-image 替代 img 标签，解决 html2canvas 中 object-fit: cover 失效导致的变形问题 */}
-                <div 
+              {/* 封面图 - 52% 高度 */}
+              <div className="relative h-[52%] w-full">
+                <div
                   className="w-full h-full"
-                  style={{ 
+                  style={{
                     backgroundImage: `url(${coverImage})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat"
                   }}
                 />
-                {/* 使用 style 强制指定 RGB 颜色，避免 Tailwind 4 的 oklab 格式 */}
-                <div 
-                  className="absolute inset-0" 
+                <div
+                  className="absolute inset-0"
                   style={{ background: "linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.2), transparent)" }}
                 />
                 <div className="absolute bottom-5 left-6 right-6 text-white">
                   <div className="flex gap-2 mb-3">
                     {video.category.slice(0, 2).map((tag) => (
-                      <span 
-                        key={tag} 
+                      <span
+                        key={tag}
                         className="px-3 h-7 text-sm font-medium rounded-full backdrop-blur-md inline-block text-center"
-                        style={{ 
-                          backgroundColor: "rgba(255,255,255,0.2)", 
+                        style={{
+                          backgroundColor: "rgba(255,255,255,0.2)",
                           borderColor: "rgba(255,255,255,0.1)",
                           borderWidth: "1px",
                           borderStyle: "solid",
-                          lineHeight: "26px", // 明确设置行高 = 高度 - 边框 (28px - 2px)
+                          lineHeight: "26px",
                           verticalAlign: "middle"
                         }}
                       >
@@ -215,79 +239,87 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
                 </div>
               </div>
 
-              {/* 内容区域 - 减少高度占比至 45% */}
-              <div 
-                className="p-6 h-[45%] flex flex-col justify-between"
+              {/* 内容区域 - 48% 高度，大幅增加空白 */}
+              <div
+                className="p-6 h-[48%] flex flex-col justify-between"
                 style={{ background: "linear-gradient(to bottom, #ffffff, #f8fafc)" }}
               >
-                <div className="space-y-5 overflow-hidden">
-                  <div>
-                    <h3 
-                      className="text-xs font-bold mb-2 uppercase tracking-wider opacity-60"
-                      style={{ color: "#57534e" }} // Stone-600，更雅致的深灰色
-                    >
-                      视频介绍
-                    </h3>
-                    <p 
-                      className="text-sm leading-relaxed line-clamp-3 font-medium pb-1"
-                      style={{ color: "#44403c", lineHeight: "1.6" }} // Stone-700，增加行高防止截断
-                    >
-                      {video.summary}
-                    </p>
-                  </div>
-                  
-                  <div 
-                    className="relative pl-4"
-                    style={{ borderLeft: "3px solid #d6d3d1" }} // Stone-300，雅致的浅灰色竖线
-                  >
-                    <h3 
+                 <div className="space-y-20 overflow-hidden flex-1">
+                   <div>
+                     <h3
+                       className="text-xs font-bold mb-2 uppercase tracking-wider opacity-60"
+                       style={{ color: "#57534e" }}
+                     >
+                       视频介绍
+                     </h3>
+                     <p
+                       className="text-[11px] leading-relaxed line-clamp-3 font-medium"
+                       style={{ color: "#44403c", lineHeight: "1.7", paddingBottom: "4px" }}
+                     >
+                       {video.summary}
+                     </p>
+                   </div>
+
+                  <div className="relative pl-4">
+                    {/* 竖线 - 与推荐理由文字对齐 */}
+                    <div
+                      className="absolute left-0 w-[3px]"
+                      style={{
+                        top: "28px",
+                        bottom: "4px",
+                        backgroundColor: "#d6d3d1"
+                      }}
+                    ></div>
+                    <h3
                       className="text-xs font-bold mb-2 uppercase tracking-wider opacity-60"
                       style={{ color: "#57534e" }}
                     >
                       推荐理由
                     </h3>
-                    <p 
-                      className="text-base font-serif italic leading-relaxed line-clamp-3 pb-1"
-                      style={{ color: "#292524", lineHeight: "1.6" }} // Stone-800，深色强调
+                    <p
+                      className="text-[13px] font-serif italic leading-relaxed line-clamp-3"
+                      style={{ color: "#292524", lineHeight: "1.7", paddingBottom: "4px" }}
                     >
                       "{video.reason}"
                     </p>
                   </div>
                 </div>
 
-                {/* 底部信息 */}
-                <div 
-                  className="flex items-end justify-between pt-5"
-                  style={{ borderTop: "1px solid #f1f5f9" }}
-                >
-                  <div>
-                    <div className="flex items-center gap-2.5 mb-1">
-                      <img 
-                        src="/images/logo.jpg" 
-                        alt="Logo" 
-                        className="w-9 h-9 rounded-full shadow-sm object-cover"
-                      />
-                      <span 
-                        className="font-bold text-lg tracking-tight"
-                        style={{ color: "#0f172a" }}
-                      >
-                        周末放映室
-                      </span>
-                    </div>
-                    <p 
-                      className="text-sm font-medium"
-                      style={{ color: "#64748b" }}
-                    >
-                      精选优质儿童动画短片
-                    </p>
-                  </div>
-                  <div 
-                    className="bg-white p-2 rounded-xl shadow-sm"
+                 {/* 底部信息 - 整体缩小 */}
+                 <div
+                   className="flex items-end justify-between pt-8"
+                   style={{ borderTop: "1px solid #f1f5f9" }}
+                 >
+                   <div>
+                     <div className="flex items-center gap-2 mb-1">
+                       <img
+                         src="/images/logo.jpg"
+                         alt="Logo"
+                         className="w-7 h-7 rounded-full shadow-sm object-cover flex-shrink-0"
+                       />
+                       <div className="flex flex-col justify-center">
+                         <span
+                           className="font-bold text-base tracking-tight leading-none"
+                           style={{ color: "#0f172a" }}
+                         >
+                           周末放映室
+                         </span>
+                       </div>
+                     </div>
+                     <p
+                       className="text-xs font-medium ml-9"
+                       style={{ color: "#64748b" }}
+                     >
+                       精选优质儿童动画短片
+                     </p>
+                   </div>
+                  <div
+                    className="bg-white p-1.5 rounded-xl shadow-sm"
                     style={{ border: "1px solid #f1f5f9" }}
                   >
-                    <QRCodeSVG 
+                    <QRCodeSVG
                       value={shareUrl}
-                      size={72}
+                      size={60}
                       level="M"
                       fgColor="#1e293b"
                     />
@@ -296,22 +328,22 @@ export function PosterGenerator({ video, trigger }: PosterGeneratorProps) {
               </div>
             </div>
 
-            {/* 生成后的图片展示，支持长按保存 */}
+            {/* 生成后的图片展示 */}
             {generatedImage && (
-              <img 
-                src={generatedImage} 
-                alt="生成的海报" 
+              <img
+                src={generatedImage}
+                alt="生成的海报"
                 className="w-full h-full object-contain"
               />
             )}
           </div>
 
           {/* 操作按钮 */}
-          <div className="flex flex-col items-center gap-2 w-full">
-            <Button 
-              onClick={handleDownload} 
+          <div className="flex flex-col items-center gap-2">
+            <Button
+              onClick={handleDownload}
               disabled={isGenerating}
-              className="w-full max-w-xs shadow-lg hover:shadow-xl transition-all"
+              className="shadow-lg hover:shadow-xl transition-all px-8"
               size="lg"
             >
               {isGenerating ? (
